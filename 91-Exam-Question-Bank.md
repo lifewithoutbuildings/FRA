@@ -337,4 +337,88 @@ dg-publish: false
 
 ---
 
-**Related:** [[00-Course-Map]] · [[90-Master-Formula-Sheet]] · [[92-Past-Paper-Breakdown]]
+## Quiz 3 (Sessions 11–14) — Long-Term Assets MCQ practice
+
+> [!question] Q3.1 — A machine's cost includes all EXCEPT:
+> a) freight to the site  b) installation wages  c) the operator's first month of fuel  d) site preparation
+>> [!success]- Answer
+>> **(c) fuel** — a running cost; it doesn't make the asset *ready*. → [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]]
+
+> [!question] Q3.2 — On disposal, the fixed asset account is credited with:
+> a) its net book value  b) its gross (original) cost  c) the sale proceeds  d) the accumulated depreciation
+>> [!success]- Answer
+>> **(b) gross cost** — the whole asset leaves; accumulated depreciation is debited separately. → [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]]
+
+> [!question] Q3.3 — A firm revises an asset's useful life downward. The correct treatment is:
+> a) restate prior years  b) an entry on the date of change  c) spread remaining book value over remaining revised life  d) no change until disposal
+>> [!success]- Answer
+>> **(c)** — change in estimate = **prospective**, no back-entry. → [[14-Depreciation-Methods-and-Changes]]
+
+> [!question] Q3.4 — Switching SLM→WDV at the start of year 3, the WDV rate is computed from:
+> a) original cost and original life  b) carrying amount and remaining life  c) gross block and total life  d) residual value only
+>> [!success]- Answer
+>> **(b)** carrying amount & remaining life — using cost/original life is the classic trap. → [[14-Depreciation-Methods-and-Changes]]
+
+> [!question] Q3.5 — A revaluation **surplus** is recognised in:
+> a) profit or loss  b) other comprehensive income / revaluation reserve  c) retained earnings directly  d) a contra-asset
+>> [!success]- Answer
+>> **(b)** OCI → Revaluation Reserve; never through P&L. → [[16-Revaluation-of-Fixed-Assets]]
+
+> [!question] Q3.6 — The transfer from revaluation reserve to general reserve each year equals:
+> a) the whole surplus  b) depreciation on the revalued amount  c) the excess of revalued-amount depreciation over original-cost depreciation  d) nil
+>> [!success]- Answer
+>> **(c)** — so distributable profit is unaffected by the revaluation. → [[16-Revaluation-of-Fixed-Assets]]
+
+> [!question] Q3.7 — Recoverable amount is:
+> a) the lower of NSP and value in use  b) the higher of NSP and value in use  c) always value in use  d) always net selling price
+>> [!success]- Answer
+>> **(b) higher** of net selling price and value in use. → [[17-Impairment-of-Assets]]
+
+> [!question] Q3.8 — Machine carrying amount ₹40 lacs, NSP ₹28, VIU ₹31, revaluation reserve ₹5 lacs. Impairment to P&L:
+> a) ₹9 lacs  b) ₹4 lacs  c) ₹5 lacs  d) nil
+>> [!success]- Answer
+>> **(b) ₹4 lacs.** Recoverable = 31 → impairment 9; reserve absorbs 5, remaining **4 to P&L**. → [[17-Impairment-of-Assets]]
+
+> [!question] Q3.9 — Vehicle-for-vehicle (similar assets), BV ₹2,00,000, FV ₹2,20,000, cash ₹1,70,000. New asset recorded at:
+> a) ₹3,90,000  b) ₹3,70,000  c) ₹4,00,000  d) ₹2,20,000
+>> [!success]- Answer
+>> **(b) ₹3,70,000** = BV + cash (similar → no commercial substance). Dissimilar would be ₹3,90,000. → [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]]
+
+> [!question] Q3.10 — Which intangible may be capitalised?
+> a) internally generated goodwill  b) research costs  c) a purchased patent  d) an in-house brand
+>> [!success]- Answer
+>> **(c) purchased patent.** Internal goodwill/brand and research are expensed. → [[18-Intangible-Assets]]
+
+> [!question] Q3.11 — Software: research $2,50,000, development $1,75,000, viable 5 yrs (copyright 40). Carrying amount after 1 year:
+> a) $4,25,000  b) $1,75,000  c) $1,40,000  d) $4,14,375
+>> [!success]- Answer
+>> **(c) $1,40,000.** Capitalise development only; amortise over **useful life 5 yrs** → 1,75,000 − 35,000. → [[18-Intangible-Assets]]
+
+> [!question] Q3.13 — A patent has a 20-year legal life but management expects only 8 years of use. Amortise over:
+> a) 20 years  b) 8 years  c) the shorter of a life justified beyond 20  d) do not amortise
+>> [!success]- Answer
+>> **(b) 8 years** — useful life or legal life, **whichever is shorter**. → [[18-Intangible-Assets]]
+
+> [!question] Q3.14 — Under **IFRS / Ind AS**, purchased goodwill is:
+> a) amortised over ≤5 years  b) amortised over ≤10 years  c) not amortised, impairment-tested annually  d) expensed immediately
+>> [!success]- Answer
+>> **(c)** — IFRS/Ind AS: no amortisation, annual impairment. (Indian **AS** amortises goodwill over ≤5 yrs — know which framework.) → [[18-Intangible-Assets]]
+
+> [!question] Q3.15 — A CGU (goodwill ₹8 lacs + other assets ₹40 lacs) has a recoverable amount of ₹42 lacs. The impairment loss is:
+> a) ₹6 lacs, all off goodwill  b) ₹6 lacs, pro-rata across all assets  c) nil  d) ₹8 lacs
+>> [!success]- Answer
+>> **(a) ₹6 lacs, all off goodwill** — goodwill is written down **first**; only an excess over goodwill touches other assets. → [[17-Impairment-of-Assets#2b. Goodwill & intangibles — the CGU test (from the intangibles reading)]]
+
+> [!question] Q3.16 — Why are internally generated brands and goodwill **not** recognised, while acquired ones are?
+> a) they have no value  b) there is no verifiable transaction price, so the value would be self-assessed  c) tax law forbids it  d) they are current assets
+>> [!success]- Answer
+>> **(b)** — an arm's-length purchase fixes a verifiable number; a self-built intangible's value is easy to inflate. This duality is what breaks comparability. → [[18-Intangible-Assets#1. The intuition — why two different rules?]]
+
+> [!question] Q3.12 — An airline lengthens fleet life and raises salvage %. Immediate effect on reported profit:
+> a) lower  b) higher  c) unchanged  d) cannot say
+>> [!success]- Answer
+>> **(b) higher** — less annual depreciation. The Delta 1993 move. → [[15-Depreciation-Delta-Singapore-Airlines]]
+
+---
+
+**Related:** [[00-Course-Map]] · [[90-Master-Formula-Sheet]] · [[92-Past-Paper-Breakdown]] · [[95-Fun-Quiz-Session-14-Worked]] · [[96-Mock-Quiz-3-Predicted]]
