@@ -42,6 +42,13 @@ dg-publish: false
 
 ---
 
+> [!important] How to solve ANY impairment problem — 5 steps
+> 1. **Value in use** = discount each year's cash flow (operating + any disposal proceeds) at the given pre-tax rate; sum them.
+> 2. **Net selling price** (a.k.a. fair value less costs to sell) — usually given.
+> 3. **Recoverable amount = the HIGHER** of steps 1 and 2. *(The firm will do whichever is better — use it or sell it — so it recovers the larger number.)*
+> 4. **Impaired?** Compare with carrying amount. Impairment = carrying − recoverable (only if positive).
+> 5. **Route the loss:** if a Revaluation Reserve exists for this asset, it **absorbs the loss first (OCI)**; only the **excess** hits P&L. (For goodwill/a CGU, write goodwill down first — §2b.)
+
 ## 2. Worked — JAYA HEAVY INDUSTRIES (AS 28 / Ind AS 36)
 
 **Setup.** As at 31 Mar 2006, machine net book value **₹95.32 lacs** (net of this year's ₹15.50 lacs depreciation). Sluggish demand → test for impairment. Pre-tax discount rate **16%**. Net selling price **₹65.50 lacs**. Estimated pre-tax cash flows over the remaining 6 years:

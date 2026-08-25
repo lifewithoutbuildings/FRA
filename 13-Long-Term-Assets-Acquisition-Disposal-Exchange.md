@@ -46,6 +46,12 @@ dg-publish: false
 >> Depreciation = (20,000 − 2,000) / 6 = **$3,000**.
 >> The whole question is a disguised "which costs capitalise?" test. Add the fuel by mistake → $3,125, the wrong option.
 
+> [!important] How to build an acquisition cost — the one-question test
+> Go down the list of costs and ask each: **"Is this needed to get the asset *ready to work* for the first time?"**
+> - **Yes** (invoice net of discount, freight, installation *wages*, site prep, testing) → **add it**.
+> - **No** — it's general overhead, your own profit margin, staff opportunity cost, training, or anything that just **runs/maintains** it (fuel, insurance, later repairs) → **leave it out (expense)**.
+> Stop the moment the asset is ready; everything after that is an expense.
+
 > [!warning] The three classic acquisition slips (from Stafford T3)
 > - Treating a **cash discount as income** — it just makes the asset *cheaper* (lower cost).
 > - Valuing installation labour at the **billing rate** ($30.50) instead of **wage cost** ($15).
@@ -91,6 +97,13 @@ Dr  Loss on sale of equipment         30,000
 ---
 
 ## 3. Exchange (trade-in) — record at what you GAVE UP
+
+> [!important] How to do a disposal entry — 4 mechanical steps
+> 1. **Dr Cash** with the proceeds.
+> 2. **Dr Accumulated Depreciation** with the *full* amount piled up against the asset (this clears it).
+> 3. **Cr the asset** at its **gross original cost** (the whole asset leaves).
+> 4. The entry won't balance yet — the plug is the **gain (Cr) or loss (Dr)**. Gain if cash > NBV, loss if cash < NBV.
+> If the question gives a mid-year disposal date *and asks for it*, charge depreciation up to that date first (step 2 grows), then do the four steps.
 
 > [!important] The rule (Ind AS 16, para 24) — and the professor's version
 > Record the new asset at **fair value of what you handed over** (old asset's FV + cash), *provided the exchange has commercial substance*. The **exception**: no commercial substance, or FV not reliably measurable → fall back to **book value of the old asset + cash**, and recognise **no gain or loss**.

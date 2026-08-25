@@ -37,6 +37,9 @@ dg-publish: false
 | **Delta — Jul 1986 → Mar 1993** | 15 yr | 10% | $6.00 |
 | **Delta — from Apr 1993** | 20 yr | 5% | **$4.75** |
 
+> [!tip] The mental model — two levers, one direction
+> Depreciation has exactly **two management levers**: **useful life** (longer → less per year) and **salvage %** (higher → less to write off). Push either the "profit-flattering" way and **annual depreciation falls → reported profit rises now.** That's precisely what *both* airlines did over time, and what Delta did again in 1993 (life 15→20, salvage 10%→5%). The catch is deferred, not avoided: lower depreciation now means **higher book values** later, so **less gain (or more loss) when the asset is sold** — unless, like Singapore, you depreciate *hard* and sell young to bank the gain. So when you see a life/salvage change, ask two things: **which way does profit move now?** and **what does it do to future gain-on-sale?**
+
 > [!note] Read the trend
 > **Both airlines lengthened lives over time → lower depreciation → higher reported profit.** By 1993 Delta charges **$4.75** where Singapore charges **$8.00** for the identical $100 of aircraft — Delta books **barely more than half** the depreciation.
 

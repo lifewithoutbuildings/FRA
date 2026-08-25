@@ -72,6 +72,9 @@ dg-publish: false
 
 ---
 
+> [!tip] The intuition for WDV — why the charge falls each year
+> WDV assumes an asset is **most useful when new** and gives up value fastest early on (think of a car losing most value in year 1). So you apply a **fixed rate to a shrinking base**: big charge early, small charge late. SLM assumes value bleeds off **evenly** (a building). Same total written off over the life — WDV just **front-loads** it, which also front-loads the tax shield. Choose the method whose *shape* matches how the asset actually earns.
+
 ## 3. Change in ESTIMATE — always prospective (Ind AS 8)
 
 > [!important] The rule
@@ -89,6 +92,14 @@ $$\text{Revised annual dep} = \frac{\text{Carrying amount now} - \text{Revised r
 >> New dep = (6,780 − 1,290)/6 = **₹915/yr**. Gut-check: ₹110 extra × 6 yrs = ₹660 = exactly the drop in residual. ✓
 
 ---
+
+> [!important] How to attack ANY "change" problem — 3 steps (works for estimate AND method)
+> 1. **Freeze the past:** depreciate under the *old* rule up to the date of change → get the **carrying amount now** and the **remaining life**. Never touch prior years.
+> 2. **Plug into the new rule** using *carrying amount* and *remaining life* (not original cost/life):
+>    - new estimate, still SLM → (carrying − revised residual) ÷ remaining life;
+>    - switch to WDV → rate = 1 − (residual ÷ **carrying amount**)^(1/remaining life).
+> 3. **Charge from this year forward.** No catch-up entry, no restatement.
+> The single mark-losing error is using **original cost/original life** in step 2 — always use *carrying amount / remaining life*.
 
 ## 4. Change in METHOD — also prospective, from carrying amount
 

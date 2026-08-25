@@ -41,6 +41,9 @@ dg-publish: false
 > **(a) Excess depreciation** — depreciation on the revalued amount exceeds depreciation on original cost. That **excess** may be transferred **Revaluation Reserve → General Reserve** each year, so **distributable profit is unaffected** by the revaluation.
 > **(b) Fresh revaluations** — an upward revaluation increases the reserve; a downward one reduces it.
 
+> [!tip] The intuition for the excess-depreciation transfer (why it exists)
+> You wrote the asset **up**, so now you depreciate a **bigger** number — depreciation rises, and that *extra* depreciation **reduces this year's profit**. But that gain was **never earned by trading**; it was a market movement parked in the reserve. If the higher depreciation were allowed to shrink distributable profit, shareholders would effectively be *charged* for a paper gain. So each year you move the **extra depreciation from the Revaluation Reserve into the General Reserve** — this "gives back" to distributable reserves exactly what the extra depreciation took out. Net effect: **distributable profit is the same as if you'd never revalued.** The reserve slowly empties as the asset is used up, and whatever is left goes to General Reserve on disposal.
+
 ---
 
 ## 2. Gross vs net basis
@@ -51,6 +54,16 @@ dg-publish: false
 > The carrying amount is identical; only the presentation of cost/accumulated-depreciation differs.
 
 ---
+
+> [!important] How to solve ANY revaluation problem — the 6-step recipe
+> 1. **Depreciate to the revaluation date** on the *old* cost — find the **carrying amount just before** revaluation.
+> 2. **Revaluation reserve created = new fair value − that carrying amount** (a *rise* → reserve/OCI; a *fall* → P&L, unless it reverses this asset's earlier surplus).
+> 3. **Recompute depreciation** = fair value ÷ **remaining** useful life (use the revised residual if given).
+> 4. Each year, **transfer the excess depreciation** (new dep − old-cost dep) **Revaluation Reserve → General Reserve**.
+> 5. **Track the reserve balance** = opening − annual transfer (± any fresh revaluation).
+> 6. **On disposal**, whatever's left in the reserve → General Reserve; the realised amount = **proceeds − original book value**.
+>
+> Every worked case below is just these six steps on messier numbers.
 
 ## 3. Worked — JIVA INDUSTRIES (gross basis)
 
