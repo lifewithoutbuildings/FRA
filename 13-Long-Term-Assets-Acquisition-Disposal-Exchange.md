@@ -51,11 +51,7 @@ dg-publish: false
 > - Valuing installation labour at the **billing rate** ($30.50) instead of **wage cost** ($15).
 > - Trying to book the **revenue "lost"** by not doing paying jobs — no entry, ever.
 
-> [!note] Land & the "worthless building" rule (Stafford T4)
-> Land's cost includes making the plot *usable*: purchase price + demolition of a worthless building + **permanent** improvements (drainage). If the demolished building had value, knocking it down would be a **loss**, not part of land cost. **Land is never depreciated.** A *limited-life* improvement is a separate depreciable item.
-
-> [!note] Moving/reinstalling an *already-working* asset = EXPENSE (Stafford T7)
-> Same physical act (bolting a machine down), opposite treatment: installing a **new** press → capitalise; **relocating** working equipment → expense (Ind AS 16, para 19 names "relocation costs"). Repairs and reinstallation don't add *future* benefit, they restore the status quo. **This is the professor's favourite trap.**
+Two sub-rules the professor keeps circling back to. *Land* is costed at whatever it takes to make the plot usable — purchase price, plus demolishing a **worthless** building on it, plus **permanent** improvements like drainage (Stafford T4). Had the demolished building been worth something, knocking it down would be a *loss* rather than part of land cost; and a *limited-life* improvement is a separate depreciable item, not part of the land, which is itself **never depreciated**. *Relocation* is the mirror-image trap (Stafford T7), and the professor's favourite: installing a **new** press is capitalised, but **relocating equipment that already works** is expensed — Ind AS 16 para 19 names "relocation costs" outright. Bolting a machine to a floor is the same physical act either way, but moving working kit only restores the status quo; it buys no *future* benefit.
 
 ---
 
@@ -93,14 +89,16 @@ Dr  Loss on sale of equipment         30,000
 ## 3. Exchange (trade-in) — record at what you GAVE UP
 
 > [!important] The rule (Ind AS 16, para 24) — and the professor's version
-> Record the new asset at **fair value of what you handed over** (old asset's FV + cash), *provided the exchange has commercial substance*. The **exception**: no commercial substance, or FV not reliably measurable → fall back to **book value of the old asset + cash**, and recognise **no gain or loss**.
+> Record the new asset at the **fair value of what you handed over** (old asset's FV + cash), *provided the exchange has commercial substance* and FV is measurable. If not — no commercial substance, or FV unreliable — fall back to the **book value of the old asset + cash**, with **no gain or loss**.
 
-> [!important] The decision that separates Q6 from Q7 — commercial substance
-> The professor frames it as **similar vs dissimilar** assets:
-> | Situation | Value new asset at | Fun Quiz |
-> |---|---|---|
-> | **Dissimilar** assets (real economic change → commercial substance) | **Fair value of old + cash** | **Q7** → 2,20,000 + 1,70,000 = **₹3,90,000** |
-> | **Similar** assets (swap changes nothing real → no commercial substance) | **Book value of old + cash** | **Q6** → 2,00,000 + 1,70,000 = **₹3,70,000** |
+The professor runs this off **similar vs dissimilar** assets, which is the older (APB 29 / pre-2016 AS 10) framing — Ind AS 16 itself keys off **commercial substance** (do the asset's cash flows really change?), not literal similarity. And the "similar → no gain/loss" shorthand hides one catch: on a *similar* swap you **defer a gain but still book a loss**. So if the old asset's fair value has slipped *below* its book value, you record at **FV + cash and recognise the loss now**, even for a similar asset — which is exactly what Stafford does with the composing machine (T5): FV ₹6,050 < BV ₹6,800, so it lands at FV + cash with a ₹750 loss booked, not BV + cash.
+
+> [!important] The decision that separates Q6 from Q7
+> | Situation | Value new asset at | Gain / loss | Example |
+> |---|---|---|---|
+> | **Dissimilar** (commercial substance) | **FV of old + cash** | both recognised | **Q7** → 2,20,000 + 1,70,000 = **₹3,90,000** (₹20,000 gain) |
+> | **Similar**, FV ≥ BV (a gain) | **BV of old + cash** | gain **deferred** | **Q6** → 2,00,000 + 1,70,000 = **₹3,70,000** |
+> | **Similar**, FV < BV (a loss) | **FV of old + cash** | loss **recognised now** | Stafford T5 → 6,050 + 20,830 = **₹26,880**, ₹750 loss |
 
 > [!example] Fun Quiz Q6 vs Q7 — same numbers, different answer
 > Old vehicle: BV ₹2,00,000, FV ₹2,20,000; cash paid ₹1,70,000; invoice price ₹4,00,000.
@@ -127,8 +125,8 @@ Dr  Loss on sale of equipment         30,000
 > - **Fuel / running costs added to asset cost** → they're expensed (Q1).
 > - **Crediting the asset at net book value** on disposal → must be **gross**; debit accumulated depreciation separately.
 > - **"Disposed on 1 April" ⇒ automatically pro-rate** → only if the question asks for depreciation to date.
-> - **Using fair value for a *similar*-asset swap** → similar = **book value + cash** (Q6).
-> - **Using book value for a *dissimilar* swap** → dissimilar = **fair value + cash** (Q7).
+> - **Forgetting a *similar* swap still books a loss** — defer the gain (BV + cash), but if FV < BV record at FV + cash and take the loss now (Stafford T5).
+> - **Using book value for a *dissimilar* swap** → dissimilar = **fair value + cash**, gain/loss recognised (Q7).
 > - **Recording a trade-in at the dealer's allowance** when FV is known.
 > - **Capitalising relocation / reinstallation / repairs** of an already-working asset.
 
@@ -136,6 +134,6 @@ Dr  Loss on sale of equipment         30,000
 
 - **Capitalise** what makes an asset *ready for future benefit*; **expense** what merely runs or restores it.
 - Disposal: remove **gross cost + accumulated depreciation**; gain/loss = cash − NBV, shown in P&L (not revenue).
-- Exchange: **dissimilar → FV + cash** (gain/loss recognised); **similar → BV + cash** (no gain/loss). Trade-in allowance is only a last-resort proxy for FV.
+- Exchange: **dissimilar → FV + cash** (gain/loss recognised); **similar → BV + cash** with the gain deferred — but a **loss is still booked** (FV + cash) when FV < BV. Trade-in allowance is only a last-resort proxy for FV.
 
 **Related:** [[FRA Session 11]] · [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]

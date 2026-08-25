@@ -81,9 +81,9 @@ a. can never be reversed  b. may be reversed  c. is reversed only for land  d. r
 
 > [!success]- Q4 — **c** (mezzanine raises capacity = capital). a, b, d are repairs/maintenance = revenue expenditure.
 
-> [!success]- Q5 — (a) **₹8,40,000** (b) **₹3,60,000** (c) **₹75,000** (d) **₹25,000**
-> Annual SLM dep = 10,00,000/20 = 50,000. After 4 yrs accumulated 2,00,000 → **carrying 8,40,000** (a).
-> Revalue to 12,00,000 → **reserve = 12,00,000 − 8,40,000 = 3,60,000** (b).
+> [!success]- Q5 — (a) **₹8,00,000** (b) **₹4,00,000** (c) **₹75,000** (d) **₹25,000**
+> Annual SLM dep = 10,00,000/20 = 50,000. After 4 yrs accumulated 2,00,000 → **carrying 8,00,000** (a).
+> Revalue to 12,00,000 → **reserve = 12,00,000 − 8,00,000 = 4,00,000** (b).
 > Remaining life 16 yrs → new dep = 12,00,000/16 = **75,000** (c).
 > Excess depreciation = 75,000 − 50,000 = **25,000** transferred reserve→general reserve each year (d).
 

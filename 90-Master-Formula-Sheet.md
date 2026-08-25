@@ -96,7 +96,7 @@ $$\text{Dissimilar (commercial substance)} \Rightarrow \text{FV of old} + \text{
 
 **Revaluation:** Up → **Revaluation Reserve (OCI)**; Down → **P&L** (unless reversing that asset's surplus). Depreciate on the **revalued amount / remaining life**.
 $$\text{Excess dep transferred RR}\to\text{General Reserve} = \text{dep on revalued amount} - \text{dep on original cost}$$
-$$\text{On disposal, to General Reserve} = \text{Sale proceeds} - \text{original book value}$$
+$$\text{On disposal: full surplus}\to\text{General Reserve};\ \text{sale gain/loss}\to\text{P\&L};\ \text{net to reserves}=\text{proceeds}-\text{original BV}$$
 
 **Impairment:**
 $$\text{Recoverable amount} = \max(\text{Net selling price},\ \text{Value in use}), \quad \text{VIU} = \sum \frac{\text{cash flow}_t}{(1+i)^t}$$
@@ -106,7 +106,7 @@ $$\text{Impairment} = \text{Carrying amount} - \text{Recoverable amount} \ (>0)$
 **Depreciation per $100 of gross value (Delta/Singapore comparability):**
 $$\frac{100 \times (1 - \text{salvage \%})}{\text{depreciable life}}$$
 
-**Intangibles:** purchased → capitalise; internally generated brand/goodwill → expense (software excepted). Research → expense; development → capitalise (when feasible & saleable); amortise over **useful life or legal life, whichever is shorter**.
+**Intangibles:** purchased → capitalise; internally generated brand/goodwill → expense (software follows the research/development rule below). Research → expense; development → capitalise (when feasible & saleable); amortise over **useful life or legal life, whichever is shorter**.
 - **AS vs IFRS:** goodwill — Indian AS amortise **≤5 yrs**; IFRS/Ind AS **no amortisation**, annual impairment. Other intangibles — AS **≤10 yrs** unless longer justified; IFRS finite→amortise, indefinite→impair.
 - **Goodwill impairment** tested at **CGU** level; write down **goodwill first**, excess pro-rata to other assets; **never reversed**.
 

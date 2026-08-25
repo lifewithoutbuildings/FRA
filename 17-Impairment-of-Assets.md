@@ -24,6 +24,7 @@ dg-publish: false
 > [!important] The test (Day 4 takeaway)
 > If **carrying amount > recoverable amount**, impairment has occurred; write the asset down to the recoverable amount.
 > $$\text{Recoverable amount} = \max\big(\text{Net selling price},\ \text{Value in use}\big)$$
+> *(Net selling price = fair value less costs to sell — AS 28 and Ind AS 36 wording for the same thing.)*
 > **Value in use (VIU)** = present value of future cash flows from using the asset + its eventual disposal, discounted at a pre-tax rate.
 
 > [!note] Depreciation vs impairment
@@ -33,9 +34,7 @@ dg-publish: false
 
 ## 1. Where the impairment loss goes
 
-> [!important] Revaluation Reserve absorbs it first (Day 4 takeaway)
-> - **No reserve:** whole loss → **P&L** (`Dr Impairment loss / Cr Asset`).
-> - **Reserve exists for that asset:** loss reduces the **Revaluation Reserve (OCI) first**, and only the **excess** goes to **P&L**.
+An impairment loss normally hits **P&L** (`Dr Impairment loss / Cr Asset`). The one twist: if a **Revaluation Reserve exists for that same asset**, the loss reduces that reserve (OCI) **first**, and only the **excess** beyond it drops to P&L — the mirror image of a revaluation decrease. That's why the same impairment can cost reported profit very differently depending on whether the asset was previously revalued.
 
 > [!note] Ind AS vs US GAAP
 > Under Ind AS 36, if conditions later improve you may **reverse** an impairment (except **goodwill**). US GAAP: **once down, stays down** — no reversal.
@@ -98,7 +97,7 @@ dg-publish: false
 > Division: goodwill ₹8 lacs + other assets ₹40 lacs (book) = ₹48 lacs. Recoverable amount ₹42 lacs.
 >> Impairment = 48 − 42 = **₹6 lacs**, which is ≤ goodwill → **all ₹6 lacs off goodwill** (→ ₹2 lacs left); other assets untouched.
 >> *If* recoverable were ₹36 lacs → impairment 12 > goodwill 8: goodwill to **0**, remaining **₹4 lacs** across the other assets pro-rata.
->> Full treatment: [[18-Intangible-Assets#5. Goodwill impairment lives at the CGU level (links to 17)|note 18 §5]].
+>> Full treatment: [[18-Intangible-Assets#5. Goodwill impairment lives at the CGU level|note 18 §5]].
 
 ---
 
