@@ -394,6 +394,26 @@ dg-publish: false
 >> [!success]- Answer
 >> **(c) $1,40,000.** Capitalise development only; amortise over **useful life 5 yrs** → 1,75,000 − 35,000. → [[18-Intangible-Assets]]
 
+> [!question] Q3.13 — A patent has a 20-year legal life but management expects only 8 years of use. Amortise over:
+> a) 20 years  b) 8 years  c) the shorter of a life justified beyond 20  d) do not amortise
+>> [!success]- Answer
+>> **(b) 8 years** — useful life or legal life, **whichever is shorter**. → [[18-Intangible-Assets]]
+
+> [!question] Q3.14 — Under **IFRS / Ind AS**, purchased goodwill is:
+> a) amortised over ≤5 years  b) amortised over ≤10 years  c) not amortised, impairment-tested annually  d) expensed immediately
+>> [!success]- Answer
+>> **(c)** — IFRS/Ind AS: no amortisation, annual impairment. (Indian **AS** amortises goodwill over ≤5 yrs — know which framework.) → [[18-Intangible-Assets]]
+
+> [!question] Q3.15 — A CGU (goodwill ₹8 lacs + other assets ₹40 lacs) has a recoverable amount of ₹42 lacs. The impairment loss is:
+> a) ₹6 lacs, all off goodwill  b) ₹6 lacs, pro-rata across all assets  c) nil  d) ₹8 lacs
+>> [!success]- Answer
+>> **(a) ₹6 lacs, all off goodwill** — goodwill is written down **first**; only an excess over goodwill touches other assets. → [[17-Impairment-of-Assets#2b. Goodwill & intangibles — the CGU test (from the intangibles reading)]]
+
+> [!question] Q3.16 — Why are internally generated brands and goodwill **not** recognised, while acquired ones are?
+> a) they have no value  b) there is no verifiable transaction price, so the value would be self-assessed  c) tax law forbids it  d) they are current assets
+>> [!success]- Answer
+>> **(b)** — an arm's-length purchase fixes a verifiable number; a self-built intangible's value is easy to inflate. This duality is what breaks comparability. → [[18-Intangible-Assets#1. The intuition — why two different rules?]]
+
 > [!question] Q3.12 — An airline lengthens fleet life and raises salvage %. Immediate effect on reported profit:
 > a) lower  b) higher  c) unchanged  d) cannot say
 >> [!success]- Answer

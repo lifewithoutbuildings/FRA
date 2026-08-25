@@ -83,6 +83,25 @@ dg-publish: false
 
 ---
 
+## 2b. Goodwill & intangibles — the CGU test (from the intangibles reading)
+
+> [!important] Goodwill can't be tested alone → Cash Generating Unit (CGU)
+> Goodwill and indefinite-life intangibles generate no cash on their own, so they're tested inside the smallest group of assets that earns cash independently — a **CGU** (e.g. a division). Compare the **CGU's recoverable amount** (higher of VIU and fair-value-less-costs-to-sell) with the **aggregate book value** of the CGU's assets.
+
+> [!important] The write-off order (this is the examinable bit)
+> If the CGU is impaired, allocate the loss in a **strict order**:
+> 1. **Write down goodwill FIRST.**
+> 2. Only the **excess over goodwill** is spread **pro-rata across the other assets** (including other intangibles).
+> **Goodwill impairment is never reversed** — even under Ind AS.
+
+> [!example] CGU allocation
+> Division: goodwill ₹8 lacs + other assets ₹40 lacs (book) = ₹48 lacs. Recoverable amount ₹42 lacs.
+>> Impairment = 48 − 42 = **₹6 lacs**, which is ≤ goodwill → **all ₹6 lacs off goodwill** (→ ₹2 lacs left); other assets untouched.
+>> *If* recoverable were ₹36 lacs → impairment 12 > goodwill 8: goodwill to **0**, remaining **₹4 lacs** across the other assets pro-rata.
+>> Full treatment: [[18-Intangible-Assets#5. Goodwill impairment lives at the CGU level (links to 17)|note 18 §5]].
+
+---
+
 ## 3. The three lookalikes, kept straight (S11 §6)
 
 | Situation | Response |

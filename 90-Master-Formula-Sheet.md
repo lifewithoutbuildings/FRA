@@ -106,7 +106,9 @@ $$\text{Impairment} = \text{Carrying amount} - \text{Recoverable amount} \ (>0)$
 **Depreciation per $100 of gross value (Delta/Singapore comparability):**
 $$\frac{100 \times (1 - \text{salvage \%})}{\text{depreciable life}}$$
 
-**Intangibles:** purchased → capitalise; internally generated brand/goodwill → expense. Research → expense; development → capitalise (when feasible & saleable); amortise over **useful** life.
+**Intangibles:** purchased → capitalise; internally generated brand/goodwill → expense (software excepted). Research → expense; development → capitalise (when feasible & saleable); amortise over **useful life or legal life, whichever is shorter**.
+- **AS vs IFRS:** goodwill — Indian AS amortise **≤5 yrs**; IFRS/Ind AS **no amortisation**, annual impairment. Other intangibles — AS **≤10 yrs** unless longer justified; IFRS finite→amortise, indefinite→impair.
+- **Goodwill impairment** tested at **CGU** level; write down **goodwill first**, excess pro-rata to other assets; **never reversed**.
 
 ---
 
