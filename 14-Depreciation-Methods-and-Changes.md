@@ -21,12 +21,13 @@ dg-publish: false
 > [!abstract] In one line
 > Depreciation is **spreading an asset's cost over the years it serves you** — not a fall in market value, not a cash fund. Three methods decide the *shape* of the spread; when your estimate turns out wrong you fix it **going forward, never backward**.
 
-> [!important] The definition to write in the exam
-> Depreciation is the **allocation of the depreciable amount** (cost − residual value) of an asset over its useful life, so that profit or loss is measured properly (matching). It is **not** valuation and **not** a source of cash.
+The definition to write in the exam: depreciation is the **allocation of the depreciable amount** (cost − residual value) of an asset over its useful life, so that profit or loss is measured properly — the matching idea. It is a cost-spreading exercise, **not** a valuation of the asset and **not** a source or fund of cash.
 
 ---
 
 ## 1. The three methods
+
+The three methods differ only in the *shape* of the spread, never the total: over an asset's whole life every one of them writes off exactly cost − residual, and they part ways only on *when* the charge falls.
 
 | Method | Assumption | Yearly depreciation |
 |---|---|---|
@@ -37,8 +38,8 @@ dg-publish: false
 > [!important] The WDV rate formula (Day 2 takeaway)
 > $$r = 1 - \left(\frac{R}{C}\right)^{1/n}$$
 > where **R** = residual value, **C** = cost, **n** = life in years. This rate is applied to the **opening book value** each year, so the charge falls over time.
->
-> **For tax purposes in India, only WDV is allowed.** (SLM is common for the published accounts.)
+
+For tax purposes in India **only WDV is allowed**, while SLM is the common choice for the published accounts — so the same asset can carry two different depreciation numbers, one for the tax return and one for the annual report.
 
 ### Worked schedules — the bus (Cost ₹8,00,000, residual ₹80,000, life 6 yrs)
 
@@ -57,15 +58,15 @@ dg-publish: false
 
 **Production-unit** — unit rate = 7,20,000 ÷ 2,00,000 km = **₹3.60/km**; charge = 3.60 × km run that year (e.g. 70,000 km → ₹2,52,000).
 
-> [!tip] Which method gives more depreciation *early*?
-> **WDV front-loads** (₹2,54,960 vs SLM's ₹1,20,000 in year 1). Over the whole life all three write off the *same total* (cost − residual); they only differ in **timing**. Higher early depreciation → lower early profit → lower early tax.
+WDV front-loads the charge — ₹2,54,960 in year 1 against SLM's flat ₹1,20,000 — so the choice of method only shuffles the *timing*: heavier early depreciation means lower early profit and lower early tax, but the same ₹7,20,000 is written off by the end either way.
 
 ---
 
 ## 2. Part-year depreciation
 
-> [!important] Pro-rate to the months in use
-> $$\text{Depreciation} = \text{Annual charge} \times \frac{\text{Months in use}}{12}$$
+For an asset in service only part of a year, pro-rate the annual charge to the months in use:
+
+$$\text{Depreciation} = \text{Annual charge} \times \frac{\text{Months in use}}{12}$$
 
 > [!example] Fun Quiz Q4 — part-year
 > Machine bought **1 July**, cost ₹34,000, life 5 yrs, residual ₹2,000. Year ends **31 March** → **9 months** in use.
@@ -76,8 +77,7 @@ dg-publish: false
 
 ## 3. Change in ESTIMATE — always prospective (Ind AS 8)
 
-> [!important] The rule
-> When new information says your **residual value, useful life, or (Ind AS view) method** guess was wrong, **don't rewrite past years.** Spread the *remaining* book value (less revised residual) over the *remaining* revised life. **No entry on the day the estimate changes** — it only shows up in future depreciation.
+When new information shows your estimate of residual value, useful life (or, on the Ind AS view, the method itself) was wrong, you don't rewrite past years. You spread the *remaining* book value, less the revised residual, over the *remaining* revised life — and nothing is booked on the day the estimate changes; the revision surfaces only in future years' depreciation.
 
 $$\text{Revised annual dep} = \frac{\text{Carrying amount now} - \text{Revised residual}}{\text{Remaining useful life}}$$
 
@@ -94,12 +94,9 @@ $$\text{Revised annual dep} = \frac{\text{Carrying amount now} - \text{Revised r
 
 ## 4. Change in METHOD — also prospective, from carrying amount
 
-> [!important] SLM → WDV (the past-Quiz-3 Q1 pattern)
-> A change of method is treated as a **change in estimate** → **prospective**. Take the **carrying amount at the date of change** and apply the new method over the **remaining life**. Do **not** recompute earlier years.
+A change of *method* is handled the same way — treated as a change in estimate and applied **prospectively**: take the carrying amount at the date of change and run the new method over the remaining life, never recomputing earlier years. This is the classic past-Quiz-3 Q1 pattern (SLM → WDV). The trap when switching to WDV mid-life is the **rate**: derive it from the **carrying amount and remaining life**, not from original cost and original life.
 
-> [!warning] The WDV-rate trap when switching mid-life
-> When you switch to WDV partway through, the rate is derived from the **carrying amount and remaining life**, *not* from original cost and original life.
-> $$r = 1 - \left(\frac{\text{Revised residual}}{\text{Carrying amount now}}\right)^{1/\text{remaining life}}$$
+$$r = 1 - \left(\frac{\text{Revised residual}}{\text{Carrying amount now}}\right)^{1/\text{remaining life}}$$
 
 > [!example] "Asif" — SLM → WDV at start of year 4 (S13 exercise, rate verified)
 > Car ₹5,00,000, residual ₹50,000, life 6 yrs, SLM. After 3 yrs switch to WDV.
@@ -110,21 +107,12 @@ $$\text{Revised annual dep} = \frac{\text{Carrying amount now} - \text{Revised r
 
 ---
 
-## Traps
+## Before the quiz
 
-> [!warning]
-> - **Full-year depreciation for a part-year** (Q4) — pro-rate; Indian FY ends 31 March.
-> - **Rewriting past years** when an estimate/method changes — prospective only, no back-entry.
-> - **WDV rate off original cost/life** when switching mid-life — use **carrying amount & remaining life** (Asif: 43.35%, not 31.87%).
-> - **Booking an entry on the day an estimate changes** — there is none.
-> - **Forgetting India uses WDV for tax**, SLM common for books.
-> - **Thinking depreciation is a cash fund or a market-value write-down** — it is neither.
-
-## Key takeaways
-
-- Depreciable amount = **cost − residual**; SLM flat, WDV front-loaded, units by output; all write off the same total.
-- WDV rate off *cost*: $1-(R/C)^{1/n}$; WDV rate when *switching* mid-life: off *carrying amount & remaining life*.
-- Part-year = annual × months/12.
-- Change in estimate **or** method → **prospective**: remaining BV over remaining life.
+- Depreciable amount = **cost − residual**; SLM is flat, WDV front-loaded, units by output — but all three write off the **same total**, differing only in timing.
+- WDV rate off *cost*: $1-(R/C)^{1/n}$. WDV rate when *switching* mid-life: off **carrying amount and remaining life** (Asif 43.35%, not the cost-based 31.87%) — the single biggest trap in this topic.
+- Part-year = annual × months/12; remember the Indian FY ends 31 March, so July→March is 9 months, not a year (Q4).
+- Change in estimate **or** method → **prospective**: remaining book value over remaining life, with **no entry** on the day of the change.
+- India uses WDV for tax, SLM commonly for the books; depreciation is neither a cash fund nor a market-value write-down.
 
 **Related:** [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]] · [[15-Depreciation-Delta-Singapore-Airlines]] · [[16-Revaluation-of-Fixed-Assets]] · [[Depreciation Slide]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]

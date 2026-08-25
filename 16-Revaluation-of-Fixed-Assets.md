@@ -21,8 +21,7 @@ dg-publish: false
 > [!abstract] In one line
 > The revaluation model lets you carry a **whole class** of assets at current fair value instead of cost. An **increase** goes to a **Revaluation Reserve in equity (via OCI) — never through P&L**; a **decrease** hits **P&L** — unless it reverses a prior surplus on the same asset. Then depreciation is recomputed on the revalued amount, and the extra depreciation is transferred **reserve → general reserve** so distributable profit is untouched.
 
-> [!important] The India-vs-US headline (from S11 §5)
-> **US GAAP bans marking assets up. Ind AS allows revaluation.** If a question asks "what can an Indian company do that a US one cannot?" — this is the answer.
+The single biggest India-vs-US contrast in the topic (S11 §5): **US GAAP bans marking assets up, Ind AS allows revaluation.** If a question asks what an Indian company can do that a US one cannot, this is the answer.
 
 ---
 
@@ -41,10 +40,7 @@ Once revalued, the reserve then moves for two reasons. First, **excess depreciat
 
 ## 2. Gross vs net basis
 
-> [!note] Two mechanical routes to the same carrying amount
-> - **Gross basis:** restate **both** gross cost and accumulated depreciation proportionately so net = fair value. (Jiva below.)
-> - **Net basis:** eliminate accumulated depreciation against the asset, then restate the net figure to fair value. (Yash below.)
-> The carrying amount is identical; only the presentation of cost/accumulated-depreciation differs.
+There are two mechanical routes to the same revalued carrying amount. On the **gross basis** you restate *both* gross cost and accumulated depreciation proportionately, so the net figure lands at fair value (Jiva, below). On the **net basis** you first eliminate accumulated depreciation against the asset, then restate the net figure to fair value (Yash, below). The carrying amount comes out identical either way — only the split between cost and accumulated depreciation on the face of the balance sheet differs.
 
 ---
 
@@ -72,8 +68,7 @@ Once revalued, the reserve then moves for two reasons. First, **excess depreciat
 | **Net book value** | **15,60,000** | **3,25,000** |
 | **Revaluation Reserve** | **5,59,000** | **5,59,000** |
 
-> [!note] Why Jiva's reserve sits still but Yash's falls each year
-> The annual RR → General Reserve transfer of *excess depreciation* is **permitted, not required** (Ind AS 16, para 41). Jiva simply doesn't make it, so its reserve holds at ₹5,59,000 until disposal; Yash (below) *does* make it, so its reserve is drawn down year by year. Both are acceptable — just don't expect the reserve to move on its own when the transfer isn't being made.
+Notice Jiva's reserve sits still at ₹5,59,000 across both years. The annual transfer of *excess depreciation* from Revaluation Reserve to General Reserve is **permitted, not required** (Ind AS 16, para 41): Jiva simply doesn't make it, so its reserve holds until disposal, whereas Yash (below) *does* make it and draws its reserve down year by year. Both are acceptable — just don't expect the reserve to move on its own when the transfer isn't being made.
 
 ---
 
@@ -102,11 +97,7 @@ Once revalued, the reserve then moves for two reasons. First, **excess depreciat
 > - **2016** revalued to 5,60,000 (CA was 4,94,100) → gain ₹65,900; dep = 5,60,000/14 = 40,000; transfer 15,000.
 > - **2019 is a LOSS**: CA 4,40,000 → 4,00,000 = ₹40,000 down. It reverses part of the existing surplus on this asset, so it **reduces the Revaluation Reserve (OCI)**, not P&L. Dep = 4,00,000/11 = 36,360; transfer 11,360.
 
-> [!important] The revaluation-loss decision tree (para 40)
-> Asset value **falls**:
-> 1. Is there a **surplus in the reserve for this same asset**? → reduce the reserve first (OCI), up to that balance.
-> 2. **Excess beyond the reserve** → **P&L**.
-> (Mirror image for a rise that reverses a past P&L loss: that much goes to P&L, the rest to the reserve.)
+The rule behind that 2019 loss is worth stating cleanly (para 40): when an asset's value **falls**, first check whether a surplus for *that same asset* still sits in the reserve — reduce the reserve (through OCI) up to that balance, and only the excess beyond it drops to **P&L**. A rise works as the mirror image: to the extent it reverses a past P&L loss on that asset it goes back through P&L, and the rest to the reserve.
 
 ---
 
@@ -122,22 +113,12 @@ Once revalued, the reserve then moves for two reasons. First, **excess depreciat
 
 ---
 
-## Traps
+## Before the quiz
 
-> [!warning]
-> - **Routing a revaluation gain through P&L** — it goes to **OCI / Revaluation Reserve** in equity.
-> - **Depreciating on old cost after revaluing** — depreciate on the **revalued amount over remaining life**.
-> - **Forgetting the RR→General Reserve transfer** of excess depreciation (10,300 / 15,000 / 11,360 in Yash).
-> - **Sending a revaluation *decrease* straight to P&L** when a surplus exists for that asset — reduce the reserve first.
-> - **Cherry-picking one asset** — revaluation applies to the **whole class**.
-> - **On disposal**, running the reserve through P&L — it goes **directly to general reserve**.
-
-## Key takeaways
-
-- Up → Revaluation Reserve (OCI); down → P&L unless reversing that asset's surplus. Whole class, policy choice.
-- Recompute depreciation on the **revalued amount / remaining life**; transfer the **excess depreciation RR→General Reserve** so distributable profit is unchanged.
-- **Jiva:** RR ₹5,59,000, rate 19%, revalued dep ₹12,35,000.
-- **Yash:** transfers 10,300 / 15,000 / 11,360; 2019 downward revaluation reduces the reserve (OCI), not P&L.
-- **Disposal (Q5):** whole surplus (₹50,000) → General Reserve, sale loss (₹30,000) → P&L; **net** to reserves = proceeds − original BV = ₹20,000.
+- **Up → Revaluation Reserve (OCI); down → P&L** unless it reverses that asset's own surplus (then reduce the reserve first). It's a **policy choice** applied to the **whole class**, never one cherry-picked asset.
+- After revaluing, **depreciate on the revalued amount over remaining life**, not on old cost; the **excess depreciation** may be transferred RR → General Reserve each year so distributable profit is unchanged (Yash: 10,300 / 15,000 / 11,360).
+- **Jiva:** RR ₹5,59,000, rate 19%, revalued dep ₹12,35,000 (reserve held flat — no annual transfer made).
+- **Yash:** 2019's downward revaluation reduces the reserve (OCI), not P&L, because a surplus for that asset still exists.
+- **Disposal (Q5):** the whole surplus (₹50,000) transfers to General Reserve and the sale loss (₹30,000) hits P&L separately; the **net** to reserves = proceeds − original BV = ₹20,000 — check which figure the question wants.
 
 **Related:** [[FRA Session 13]] · [[17-Impairment-of-Assets]] · [[14-Depreciation-Methods-and-Changes]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]

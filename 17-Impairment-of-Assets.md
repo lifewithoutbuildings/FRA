@@ -21,23 +21,17 @@ dg-publish: false
 > [!abstract] In one line
 > Impairment is the **nasty surprise** version of depreciation: the asset is suddenly worth less than the books say. Write it down to its **recoverable amount = the higher of (fair value less costs to sell) and (value in use)**, and take the hit to **P&L — but against any Revaluation Reserve first**.
 
-> [!important] The test (Day 4 takeaway)
-> If **carrying amount > recoverable amount**, impairment has occurred; write the asset down to the recoverable amount.
-> $$\text{Recoverable amount} = \max\big(\text{Net selling price},\ \text{Value in use}\big)$$
-> *(Net selling price = fair value less costs to sell — AS 28 and Ind AS 36 wording for the same thing.)*
-> **Value in use (VIU)** = present value of future cash flows from using the asset + its eventual disposal, discounted at a pre-tax rate.
+An asset is impaired when its **carrying amount exceeds its recoverable amount** — the Day-4 test — and you write it down to that recoverable amount. Recoverable amount is the **higher** of the two ways you could still get value back from the asset:
 
-> [!note] Depreciation vs impairment
-> Depreciation is the **planned** decline; impairment is the **unplanned** one (damage, obsolescence, collapsed demand). Physical damage is a **trigger to *test*** — but testing can conclude *no* impairment (Stafford's repaired machine, S11 §6).
+$$\text{Recoverable amount} = \max\big(\text{Net selling price},\ \text{Value in use}\big)$$
+
+Net selling price is fair value less costs to sell (AS 28 and Ind AS 36 wording for the same thing), and **value in use (VIU)** is the present value of the future cash flows from using the asset plus its eventual disposal, discounted at a pre-tax rate. It helps to see impairment as the unplanned cousin of depreciation: depreciation is the *planned* decline, impairment the *unplanned* one from damage, obsolescence or collapsed demand. And physical damage is only a **trigger to test** — the test can still conclude there is no impairment, as with Stafford's repaired machine (S11 §6).
 
 ---
 
 ## 1. Where the impairment loss goes
 
-An impairment loss normally hits **P&L** (`Dr Impairment loss / Cr Asset`). The one twist: if a **Revaluation Reserve exists for that same asset**, the loss reduces that reserve (OCI) **first**, and only the **excess** beyond it drops to P&L — the mirror image of a revaluation decrease. That's why the same impairment can cost reported profit very differently depending on whether the asset was previously revalued.
-
-> [!note] Ind AS vs US GAAP
-> Under Ind AS 36, if conditions later improve you may **reverse** an impairment (except **goodwill**). US GAAP: **once down, stays down** — no reversal.
+An impairment loss normally hits **P&L** (`Dr Impairment loss / Cr Asset`). The one twist: if a **Revaluation Reserve exists for that same asset**, the loss reduces that reserve (OCI) **first**, and only the **excess** beyond it drops to P&L — the mirror image of a revaluation decrease. That's why the same impairment can cost reported profit very differently depending on whether the asset was previously revalued. One further asymmetry with US GAAP: under Ind AS 36 you may **reverse** an impairment if conditions later improve (goodwill excepted), whereas US GAAP holds that once an asset is written down it stays down.
 
 ---
 
@@ -55,43 +49,22 @@ An impairment loss normally hits **P&L** (`Dr Impairment loss / Cr Asset`). The 
 | 2011–12 | 16.23 | 4.86 | 21.09 | 0.4104 | 8.66 |
 | | | | | **Value in use** | **≈ 72.72** |
 
-> [!note] (1) Value in use
-> VIU = Σ PV ≈ **₹72.72 lacs** (small rounding: ₹72.70–72.72 depending on DF precision).
+Discounting each year's total at 16% and summing gives a **value in use of ≈ ₹72.72 lacs** (the exact figure sits around ₹72.70–72.72 depending on how many decimals you keep in the discount factors). The recoverable amount is the higher of that and the ₹65.50 lac net selling price — so **₹72.72 lacs** — and since the machine is carried at ₹95.32 lacs, it is **impaired by ₹22.60 lacs**. With no revaluation reserve behind it, the whole write-down goes to P&L:
 
-> [!note] (2) Recoverable amount
-> = higher of NSP ₹65.50 and VIU ₹72.72 = **₹72.72 lacs**.
+```
+Dr  Impairment loss (P&L)        22.60
+        Cr  Machine / Accum. impairment   22.60
+```
 
-> [!note] (3) Is it impaired? By how much?
-> Carrying amount ₹95.32 > recoverable ₹72.72 → **impaired by ₹22.60 lacs** (≈ 95.32 − 72.72).
+Profit falls ₹22.60 lacs, the carrying amount drops to ₹72.72 lacs, and future depreciation is recomputed on that lower base over the remaining life.
 
-> [!note] (4) Impact on the financial statements — no prior reserve
-> ```
-> Dr  Impairment loss (P&L)        22.60
->         Cr  Machine / Accum. impairment   22.60
-> ```
-> P&L profit falls ₹22.60 lacs; the asset's carrying amount falls to ₹72.72 lacs; future depreciation is recomputed on the lower base over the remaining life.
-
-> [!important] (5) & (6) — the two Revaluation-Reserve variants (the exam's favourite twist)
-> **If a Revaluation Reserve of ₹12 lacs exists for this machine:** the loss hits the reserve first.
-> - Reserve absorbs ₹12.00 lacs (→ OCI); **remaining ₹10.60 lacs → P&L**.
->
-> **If the Revaluation Reserve were ₹25 lacs:** the reserve fully covers the loss.
-> - Entire **₹22.60 lacs absorbed by the reserve (OCI)**; **nothing hits P&L**.
->
-> This is why the same impairment can have a *very* different effect on reported profit depending on revaluation history.
+Parts (5) and (6) are the exam's favourite twist — the same impairment routed through different revaluation histories. If a **₹12 lac** revaluation reserve exists for this machine, the loss hits the reserve first: ₹12.00 lacs is absorbed in OCI and the remaining **₹10.60 lacs** goes to P&L. If the reserve were **₹25 lacs**, it swallows the whole ₹22.60 lacs in OCI and **nothing** touches P&L. Same economic loss, very different reported profit.
 
 ---
 
 ## 2b. Goodwill & intangibles — the CGU test (from the intangibles reading)
 
-> [!important] Goodwill can't be tested alone → Cash Generating Unit (CGU)
-> Goodwill and indefinite-life intangibles generate no cash on their own, so they're tested inside the smallest group of assets that earns cash independently — a **CGU** (e.g. a division). Compare the **CGU's recoverable amount** (higher of VIU and fair-value-less-costs-to-sell) with the **aggregate book value** of the CGU's assets.
-
-> [!important] The write-off order (this is the examinable bit)
-> If the CGU is impaired, allocate the loss in a **strict order**:
-> 1. **Write down goodwill FIRST.**
-> 2. Only the **excess over goodwill** is spread **pro-rata across the other assets** (including other intangibles).
-> **Goodwill impairment is never reversed** — even under Ind AS.
+Goodwill and indefinite-life intangibles earn no cash on their own, so they can't be impairment-tested in isolation. Instead they're tested inside the smallest group of assets that generates cash independently — a **Cash Generating Unit (CGU)**, typically a division — by comparing the CGU's recoverable amount (again the higher of VIU and fair value less costs to sell) with the aggregate book value of everything in it. If the CGU is impaired, the loss is allocated in a **strict order**: write **goodwill down first**, and only any excess beyond goodwill is spread pro-rata across the other assets, other intangibles included. Goodwill impairment, once taken, is **never reversed** — even under Ind AS.
 
 > [!example] CGU allocation
 > Division: goodwill ₹8 lacs + other assets ₹40 lacs (book) = ₹48 lacs. Recoverable amount ₹42 lacs.
@@ -111,20 +84,12 @@ An impairment loss normally hits **P&L** (`Dr Impairment loss / Cr Asset`). The 
 
 ---
 
-## Traps
+## Before the quiz
 
-> [!warning]
-> - **Recoverable = lower of** the two → it's the **HIGHER** of net selling price and value in use.
-> - **Discounting to the wrong rate / forgetting to discount** VIU — use the pre-tax rate (16%).
-> - **Routing the whole loss to P&L when a Revaluation Reserve exists** — reserve absorbs it first, P&L takes only the excess.
-> - **Reversing a goodwill impairment** — never allowed, even under Ind AS.
-> - **Treating physical damage as automatic impairment** — it's a *trigger to test*; the test can find none.
-
-## Key takeaways
-
-- Impaired if **carrying amount > recoverable amount**; recoverable = **max(net selling price, value in use)**.
-- **VIU** = PV of future operating + disposal cash flows at the pre-tax rate.
-- **Jaya:** VIU ≈ ₹72.72 lacs > NSP ₹65.50 → recoverable ₹72.72 → **impairment ≈ ₹22.60 lacs**. With RR ₹12 lacs → ₹10.60 to P&L; with RR ₹25 lacs → nil to P&L.
-- Loss hits **Revaluation Reserve first, then P&L**. Ind AS allows reversal (not goodwill); US GAAP never.
+- Recoverable amount is the **HIGHER** of net selling price and value in use — never the lower — and VIU must be **discounted** at the pre-tax rate (16% for Jaya); forgetting to discount is a classic slip.
+- The loss hits any **Revaluation Reserve first, then P&L** — routing the whole thing to P&L when a reserve exists overstates the hit to profit.
+- **Jaya:** VIU ≈ ₹72.72 lacs > NSP ₹65.50 → recoverable ₹72.72 → **impairment ≈ ₹22.60 lacs**; with RR ₹12 lacs, ₹10.60 to P&L; with RR ₹25 lacs, nil to P&L.
+- Physical damage is a **trigger to test**, not automatic impairment — the test can find none.
+- Ind AS allows an impairment **reversal** (never for goodwill); US GAAP never reverses. Goodwill is tested at the **CGU** level and written down **first**.
 
 **Related:** [[FRA Session 13]] · [[16-Revaluation-of-Fixed-Assets]] · [[14-Depreciation-Methods-and-Changes]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]

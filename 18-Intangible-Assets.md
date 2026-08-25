@@ -21,39 +21,33 @@ dg-publish: false
 > [!abstract] In one line
 > Intangibles ask the same question as any asset — *does it buy future benefit?* — but because they're **invisible and easy to fake**, accounting splits into **two rules**: an asset you **buy** goes on the books; one you **grow yourself** (brand, goodwill) mostly does not. That split is the whole topic, and the source of every trap.
 
-> [!info] Sources
-> [[FRA Session 11#7. Intangible Assets|S11 §7]] + the **Fun Quiz** (Q8 brand, Q9 software) + the reading **"Intangible Assets: A Search for Right Accounting"** (Bhattacharyya, *Business Standard*, 2012) and the professor's intangibles reference table.
+Built from [[FRA Session 11#7. Intangible Assets|S11 §7]], the **Fun Quiz** (Q8 brand, Q9 software), the reading *"Intangible Assets: A Search for Right Accounting"* (Bhattacharyya, *Business Standard*, 2012), and the professor's intangibles reference table.
 
 ---
 
 ## 1. The intuition — why two different rules?
 
-> [!important] The duality (get this and the rest follows)
-> - **Acquired** intangibles (bought, or picked up in a business combination) → **recognised** on the balance sheet, because there's a **verifiable price** — an arm's-length transaction fixed the number.
-> - **Internally generated** intangibles (your own brand, customer list, goodwill) → **not recognised**, because any value you'd put on them is **self-assessed and easy to inflate**. **Software is the practical exception** — but only because its *development-phase* costs pass the normal capitalise test (below), not because internally generated software is waved onto the books wholesale.
->
-> **Why it matters (the analyst's problem):** this duality **breaks comparability**. Two firms with identical economics look different — the one that *bought* its brand shows an asset; the one that *built* its brand shows nothing but a trail of expenses. So analysts **restructure**: they treat brand/R&D spend as an *"expensed investment,"* capitalise and amortise it over an assumed life, and restate goodwill at cost — purely to make **ROI comparable** across the industry. Research shows the capital market prices the economics correctly *as long as it understands the policy* — the accounting label doesn't change value, but it does change the reported ratios.
+The whole topic comes from one duality, and once you have it the rest follows. An **acquired** intangible — one you bought outright or picked up in a business combination — goes **onto the balance sheet**, because an arm's-length transaction fixed a **verifiable price**. An **internally generated** intangible — your own brand, customer list, or goodwill — mostly does **not**, because any value you'd assign is self-assessed and easy to inflate. Software is the practical exception, but only because its *development-phase* costs pass the ordinary capitalise test (below), not because home-grown software is waved onto the books wholesale.
 
-> [!note] The deeper point the reading makes
-> We happily apply **complex, costly, judgemental** rules (value-in-use, fair-value-less-costs-to-sell) to *acquired* intangibles, while **refusing to recognise** the *internally generated* ones that are often a firm's most valuable assets. The "right" accounting is unsettled; the pragmatic answer is **simple rules + enough disclosure for analysts to make their own adjustments.** (Good exam "discuss" point.)
+Why does the split matter? Because it **breaks comparability**. Two firms with identical economics can look completely different — the one that *bought* its brand shows an asset, the one that *built* the same brand shows nothing but a trail of expenses. So analysts **restructure**: they treat brand and R&D spend as an *"expensed investment,"* capitalise and amortise it over an assumed life, and restate goodwill at cost, purely to make ROI comparable across an industry. The evidence is that the capital market prices the economics correctly *as long as it understands the policy* — the accounting label doesn't change value, only the reported ratios.
+
+The reading's deeper point makes a good "discuss" line for the exam: we cheerfully apply complex, costly, judgemental rules (value-in-use, fair-value-less-costs-to-sell) to *acquired* intangibles while flatly **refusing to recognise** the *internally generated* ones that are often a firm's most valuable assets. The "right" accounting is genuinely unsettled; the pragmatic answer the profession has settled on is **simple rules plus enough disclosure for analysts to make their own adjustments.**
 
 ---
 
 ## 2. The rules that matter (Ind AS 38 / AS 26)
 
-> [!important] Recognition
-> - **Purchased** intangible (patent, licence, brand, franchise) → **capitalise** at cost.
-> - **Internally generated** brand, customer list, masthead, **goodwill** → **cannot** be capitalised (paras 48, 63). **Software** is treated under the research/development rule below — its *development* costs *can* be capitalised (as in Q9).
-> - **Research** phase → **always expensed** (too speculative). **Development** phase → **capitalise** *only* once technically feasible and saleable (paras 54, 57).
+Recognition follows straight from the duality. A **purchased** intangible — patent, licence, brand, franchise — is **capitalised at cost**. An **internally generated** brand, customer list, masthead or **goodwill cannot** be capitalised at all (paras 48, 63); **software** is the one that runs through the research/development test instead, so its *development* costs can be capitalised (as in Q9). And that test is the general rule for any in-house project: **research**-phase spend is **always expensed** (too speculative), while **development**-phase spend is **capitalised only** once the project is technically feasible and saleable (paras 54, 57).
 
-> [!important] Amortisation — Indian AS vs IFRS (a live exam contrast)
-> | | **Indian AS** (AS 26 / AS 14) | **IFRS / Ind AS** |
-> |---|---|---|
-> | **Goodwill** | amortise over **≤ 5 years** | **not amortised**; annual **impairment** test |
-> | **Other intangibles** | amortise over **≤ 10 years** unless a longer life is justified | **finite life** → amortise over useful life; **indefinite life** → not amortised, impairment-tested annually |
-> | **"Indefinite life"** | (not a category) | when management **cannot** estimate a useful life (e.g. goodwill, some brands) |
->
-> **The rule you apply to a computation:** amortise a finite-life intangible over its **useful life, or its legal life if shorter** — whichever is less. IFRS is "theoretically superior" (matches economics) but its estimates are judgemental; Indian AS is cruder but simpler.
+Amortisation is where Indian AS and IFRS visibly part company — a live exam contrast:
+
+| | **Indian AS** (AS 26 / AS 14) | **IFRS / Ind AS** |
+|---|---|---|
+| **Goodwill** | amortise over **≤ 5 years** | **not amortised**; annual **impairment** test |
+| **Other intangibles** | amortise over **≤ 10 years** unless a longer life is justified | **finite life** → amortise over useful life; **indefinite life** → not amortised, impairment-tested annually |
+| **"Indefinite life"** | (not a category) | when management **cannot** estimate a useful life (e.g. goodwill, some brands) |
+
+For a computation, the rule is simply: amortise a finite-life intangible over its **useful life, or its legal life if shorter** — whichever is less. IFRS is the "theoretically superior" framework (it matches the economics) but leans on judgemental estimates; Indian AS is cruder but simpler.
 
 ---
 
@@ -67,8 +61,7 @@ dg-publish: false
 | **Franchise / Licence** | Term of the contract | Record the lump-sum payment; amortise over the **franchise/licence period** |
 | **Goodwill** | — (excess of purchase price over FV of net assets) | Record **purchased** goodwill at cost; Indian AS amortise over ≤5 yrs / IFRS impairment-only; **never recognise internal goodwill** |
 
-> [!tip] The recurring computational move
-> "Legal life is X, useful life is Y (< X) → amortise over **Y**." A trademark is the odd one out — its legal life is *indefinitely renewable*, so **useful life always governs**. Franchises are the other way: amortise over the **contract term**, even if you think you'd use it longer.
+The recurring computational move is "legal life is X, useful life is Y (< X) → amortise over **Y**." Two assets buck it: a **trademark**'s legal life is indefinitely renewable, so **useful life always governs**; a **franchise** goes the other way — amortise over the **contract term**, even if you expect to trade longer.
 
 ---
 
@@ -101,12 +94,7 @@ dg-publish: false
 
 ## 5. Goodwill impairment lives at the CGU level
 
-> [!important] Why goodwill can't be tested alone — and the write-off order
-> Goodwill generates no cash by itself, so it's tested inside a **Cash Generating Unit (CGU)** — the smallest group of assets that earns cash independently (e.g. a division the goodwill was allocated to).
-> - Compute the CGU's **recoverable amount** = higher of **VIU** and **fair value less costs to sell**.
-> - If recoverable ≥ aggregate book value → **no impairment**.
-> - If recoverable < book value → impairment loss, allocated in a **strict order**: **write down goodwill FIRST**; only if the loss exceeds goodwill is the **remainder spread across the other assets** (including other intangibles), pro-rata.
-> - **Goodwill impairment is never reversed** (even under Ind AS).
+Goodwill earns no cash by itself, so it can't be impairment-tested alone — it's tested inside a **Cash Generating Unit (CGU)**, the smallest group of assets that generates cash independently (typically the division the goodwill was allocated to). You compare the CGU's **recoverable amount** — the higher of value-in-use and fair value less costs to sell — with the aggregate book value of everything in it: if recoverable is at least book value there's no impairment, and if it's below, the loss is allocated in a **strict order** — **goodwill written down first**, and only any excess beyond goodwill spread pro-rata across the other assets (other intangibles included). Goodwill impairment is **never reversed**, even under Ind AS.
 
 > [!example] CGU allocation
 > A division: goodwill ₹8 lacs, other assets ₹40 lacs (book values); recoverable amount ₹42 lacs. Impairment and its allocation?
@@ -115,21 +103,12 @@ dg-publish: false
 
 ---
 
-## Traps
+## Before the quiz
 
-> [!warning]
-> - **Capitalising internal brand-building / customer lists / internal goodwill** — expensed; only *purchased* intangibles go on the books (software follows the research/development rule).
-> - **Capitalising research** — always expensed; only *development* (feasible + saleable) is capitalised.
-> - **Amortising over the legal/copyright life** when useful life is shorter — use the **shorter**. (Trademark: useful life always governs; franchise: contract term governs.)
-> - **Amortising goodwill under IFRS** — it isn't (Indian AS ≤5 yrs; IFRS impairment-only). Know **which framework** the question uses.
-> - **Testing goodwill on its own** — it's tested at the **CGU** level, and impairment hits **goodwill first**, never reversed.
-
-## Key takeaways
-
-- **Duality:** acquired → recognised (verifiable price); internally generated brand/goodwill → not (except software). This breaks comparability, so analysts restructure ("expensed investment").
-- Research **expensed**, development **capitalised**; amortise finite-life intangibles over **useful life or legal life, whichever is shorter**.
-- **AS vs IFRS:** goodwill — AS amortise ≤5 yrs, IFRS impairment-only; other intangibles — AS ≤10 yrs unless justified, IFRS finite-amortise / indefinite-impair.
-- **Q8:** brand = **₹50 lakhs**; **Q9:** software = **$1,40,000**.
-- **Goodwill impairment** at the **CGU** level, written off **first**, **never reversed**.
+- **Duality:** acquired → recognised (a verifiable price fixed it); internally generated brand/goodwill → not (software is the exception, via the development-cost test). This is what breaks comparability, so analysts restructure with an "expensed investment" adjustment.
+- **Research expensed, development capitalised** (only when feasible and saleable); never capitalise internal brand-building, customer lists, or internal goodwill.
+- Amortise a finite-life intangible over its **useful life or legal life, whichever is shorter** — but a **trademark** is governed by useful life (legal life is renewable) and a **franchise** by its contract term.
+- **AS vs IFRS on goodwill:** AS amortises over ≤5 yrs, IFRS/Ind AS doesn't amortise at all (annual impairment) — always check which framework the question is in. Other intangibles: AS ≤10 yrs unless justified; IFRS amortises finite lives, impairs indefinite ones.
+- Key answers: **Q8** brand = ₹50 lakhs; **Q9** software = $1,40,000. **Goodwill impairment** is tested at the **CGU** level, written off **first**, and **never reversed**.
 
 **Related:** [[FRA Session 11]] · [[03-Balance-Sheet-Assets]] · [[17-Impairment-of-Assets]] · [[95-Fun-Quiz-Session-14-Worked]] · [[90-Master-Formula-Sheet]]

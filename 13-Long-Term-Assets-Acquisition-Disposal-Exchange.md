@@ -18,21 +18,18 @@ dg-publish: false
 ← [[00-Course-Map|Course Map]] | [[FRA Session 11]] (full Stafford narrative) | [[14-Depreciation-Methods-and-Changes]] →
 
 > [!abstract] In one line
-> The whole Quiz-3 fixed-asset block turns on **one decision made over and over**: when money moves near an asset, does it go *onto* the balance sheet (capitalise) or *through* the income statement (expense)? This note nails the three moments where that decision is examined — **buying, selling, and swapping** — as fast MCQ-ready rules with the professor's own traps.
+> The whole Quiz-3 fixed-asset block turns on **one decision made over and over**: when money moves near an asset, does it go *onto* the balance sheet (capitalise) or *through* the income statement (expense)? This note works the three moments where that decision gets examined — **buying, selling, and swapping** — with the professor's own traps.
 
-> [!info] How this note relates to Session 11
-> [[FRA Session 11]] teaches this through the full **Stafford Press** story end-to-end. This note is the **exam-compression** of it: the rules stripped to what a quiz question tests, plus the **Fun Quiz** items (Q1, Q2, Q6, Q7) worked. Read S11 once for the narrative; drill this before the quiz.
+[[FRA Session 11]] teaches all of this through the full **Stafford Press** story end-to-end; this note is the exam-compression, with the **Fun Quiz** items (Q1, Q2, Q6, Q7) worked. Read S11 once for the narrative, drill this before the quiz.
 
 ---
 
 ## 1. Acquisition — what goes into "cost"
 
-> [!important] The rule (Ind AS 16, paras 16–17)
-> **Cost = purchase price (net of trade discount) + every cost needed to bring the asset to the location and condition where it can operate as intended.** The moment it is *ready to use*, capitalising stops (para 20). Anything after that is an expense.
+The cost of an asset is its purchase price net of trade discount, plus **every cost needed to bring it to the location and condition where it can operate as intended** (Ind AS 16, paras 16–17). The instant it is *ready to use*, capitalising stops (para 20); anything spent after that is an expense. So into cost go delivery and freight, installation *wages*, site preparation, testing, non-refundable duties, professional fees, and borrowing cost incurred during construction (Ind AS 23) — everything that gets the asset working.
 
-**Capitalise (in):** purchase price − cash/trade discount · delivery/freight · installation *wages* · site preparation · testing · non-refundable duties · professional fees · borrowing cost during construction (Ind AS 23).
+What stays out is the handful of things that only *feel* like they belong:
 
-**Expense (out):** the three the professor keeps flagging —
 | Tempting to add | Why it's out |
 |---|---|
 | **General overhead / admin** | Head-office rent isn't part of a machine you happened to buy that month |
@@ -40,16 +37,13 @@ dg-publish: false
 | **Opportunity cost** of staff pulled off paying jobs | Real, but never gets an entry |
 | **Fuel / consumables to run it** | A *running* cost, not a cost of getting it ready → expense |
 
+The Stafford press purchase (T3) is where the professor plants the classic slips: a cash discount is not income, it just makes the asset cheaper; installation labour is valued at **wage cost** ($15/hr), never the **billing rate** ($30.50); and the revenue "lost" by pulling staff off paying jobs never gets an entry at all.
+
 > [!example] Fun Quiz Q1 — the capitalisation trap
 > Used tractor **$17,500**; before use: new tyres **$1,100**, overhaul **$1,400**, first tank of fuel **$750**. Life 6 yrs, residual $2,000. First-year SLM depreciation?
 >> Cost = 17,500 + 1,100 + 1,400 = **$20,000**. **Fuel is excluded** — it runs the tractor, it doesn't make it *ready*.
 >> Depreciation = (20,000 − 2,000) / 6 = **$3,000**.
 >> The whole question is a disguised "which costs capitalise?" test. Add the fuel by mistake → $3,125, the wrong option.
-
-> [!warning] The three classic acquisition slips (from Stafford T3)
-> - Treating a **cash discount as income** — it just makes the asset *cheaper* (lower cost).
-> - Valuing installation labour at the **billing rate** ($30.50) instead of **wage cost** ($15).
-> - Trying to book the **revenue "lost"** by not doing paying jobs — no entry, ever.
 
 Two sub-rules the professor keeps circling back to. *Land* is costed at whatever it takes to make the plot usable — purchase price, plus demolishing a **worthless** building on it, plus **permanent** improvements like drainage (Stafford T4). Had the demolished building been worth something, knocking it down would be a *loss* rather than part of land cost; and a *limited-life* improvement is a separate depreciable item, not part of the land, which is itself **never depreciated**. *Relocation* is the mirror-image trap (Stafford T7), and the professor's favourite: installing a **new** press is capitalised, but **relocating equipment that already works** is expensed — Ind AS 16 para 19 names "relocation costs" outright. Bolting a machine to a floor is the same physical act either way, but moving working kit only restores the status quo; it buys no *future* benefit.
 
@@ -57,13 +51,11 @@ Two sub-rules the professor keeps circling back to. *Land* is costed at whatever
 
 ## 2. Disposal — remove the asset at its GROSS value
 
-> [!important] The core mechanic (Ind AS 16, para 68)
-> On sale, wipe out **both** the original cost **and** all accumulated depreciation. Compare cash received to **net book value**.
-> $$\text{Gain / (Loss)} = \text{Cash received} - \text{Net Book Value}$$
-> The gain/loss goes through the **P&L — but it is not "revenue"** (selling a machine isn't your business). Never label it "extraordinary" — that category is abolished.
+On a sale you wipe out **both** the asset's original cost **and** all the accumulated depreciation piled against it, then compare the cash received to the net book value (Ind AS 16, para 68):
 
-> [!warning] The single most-repeated exam point
-> The asset is credited at its **GROSS (original) value**, not net book value — because the entire asset *and* its accumulated depreciation must both leave the books. Miss the accumulated-depreciation debit and the entry won't balance.
+$$\text{Gain / (Loss)} = \text{Cash received} - \text{Net Book Value}$$
+
+That gain or loss runs through the **P&L, but it is not "revenue"** — selling a machine isn't your business — and it is never an "extraordinary item," a category that no longer exists. The single most-tested point here is the **gross** credit: the asset leaves the books at its *original* cost, not its net book value, with accumulated depreciation debited separately. Miss that debit and the entry won't balance.
 
 **Template (loss case — Day 1 takeaway):**
 ```
@@ -81,15 +73,13 @@ Dr  Loss on sale of equipment         30,000
 >> ```
 >> *("Disposed of on 1 April" is a distractor — no part-year depreciation is asked for. If a question does ask, charge depreciation up to the disposal date first, then compute the gain/loss.)*
 
-> [!warning] Don't net a gain against a loss
-> Two assets sold in two deals → one loss (expense side) and one gain (income side) shown **separately** on the P&L, never offset.
+And when two assets are sold in two separate deals, their loss and gain show **separately** on the P&L — one on the expense side, one on the income side — never netted off against each other.
 
 ---
 
 ## 3. Exchange (trade-in) — record at what you GAVE UP
 
-> [!important] The rule (Ind AS 16, para 24) — and the professor's version
-> Record the new asset at the **fair value of what you handed over** (old asset's FV + cash), *provided the exchange has commercial substance* and FV is measurable. If not — no commercial substance, or FV unreliable — fall back to the **book value of the old asset + cash**, with **no gain or loss**.
+You record the new asset at the **fair value of what you handed over** (the old asset's fair value + cash), provided the exchange has commercial substance and that fair value is measurable. If not — no commercial substance, or fair value unreliable — you fall back to the **book value of the old asset + cash** and recognise no gain or loss (Ind AS 16, para 24).
 
 The professor runs this off **similar vs dissimilar** assets, which is the older (APB 29 / pre-2016 AS 10) framing — Ind AS 16 itself keys off **commercial substance** (do the asset's cash flows really change?), not literal similarity. And the "similar → no gain/loss" shorthand hides one catch: on a *similar* swap you **defer a gain but still book a loss**. So if the old asset's fair value has slipped *below* its book value, you record at **FV + cash and recognise the loss now**, even for a similar asset — which is exactly what Stafford does with the composing machine (T5): FV ₹6,050 < BV ₹6,800, so it lands at FV + cash with a ₹750 loss booked, not BV + cash.
 
@@ -114,26 +104,16 @@ The professor runs this off **similar vs dissimilar** assets, which is the older
 >> ```
 >> *(The invoice price ₹4,00,000 is a distractor — you never record at the sticker price.)*
 
-> [!warning] Trade-in allowance ≠ fair value (Day 2 takeaway)
-> Dealers **pad the trade-in allowance** and quietly pad the new asset's price by the same amount. If fair value is **ascertainable, use it and ignore the allowance.** Only if no FV is available do you fall back to the trade-in allowance as a proxy. Recording the inflated allowance overstates the asset and hides a loss.
+The trap underneath all of this is the **trade-in allowance**: dealers pad it and quietly pad the new asset's price by the same amount, so recording the inflated allowance overstates the asset and hides a loss. Whenever fair value is ascertainable, use it and ignore the allowance; only with no fair value available do you fall back to the allowance as a proxy.
 
 ---
 
-## Traps (memorise before the quiz)
+## Before the quiz
 
-> [!warning]
-> - **Fuel / running costs added to asset cost** → they're expensed (Q1).
-> - **Crediting the asset at net book value** on disposal → must be **gross**; debit accumulated depreciation separately.
-> - **"Disposed on 1 April" ⇒ automatically pro-rate** → only if the question asks for depreciation to date.
-> - **Forgetting a *similar* swap still books a loss** — defer the gain (BV + cash), but if FV < BV record at FV + cash and take the loss now (Stafford T5).
-> - **Using book value for a *dissimilar* swap** → dissimilar = **fair value + cash**, gain/loss recognised (Q7).
-> - **Recording a trade-in at the dealer's allowance** when FV is known.
-> - **Capitalising relocation / reinstallation / repairs** of an already-working asset.
-
-## Key takeaways
-
-- **Capitalise** what makes an asset *ready for future benefit*; **expense** what merely runs or restores it.
-- Disposal: remove **gross cost + accumulated depreciation**; gain/loss = cash − NBV, shown in P&L (not revenue).
-- Exchange: **dissimilar → FV + cash** (gain/loss recognised); **similar → BV + cash** with the gain deferred — but a **loss is still booked** (FV + cash) when FV < BV. Trade-in allowance is only a last-resort proxy for FV.
+- **Capitalise** what makes an asset *ready for future benefit*; **expense** what merely runs or restores it — so fuel and running costs are out (Q1), and so is relocating, reinstalling or repairing equipment that already works.
+- A cash discount lowers cost (it's not income); self-built assets carry **wage cost**, never billing rate or profit margin.
+- **Land** absorbs demolition of a worthless building and permanent improvements into its cost — and is never depreciated.
+- **Disposal:** credit the asset at **gross** cost, debit accumulated depreciation separately; gain/loss = cash − NBV, through P&L (not revenue), never netted across two deals. "Disposed on 1 April" forces part-year depreciation *only* if the question asks for it.
+- **Exchange:** dissimilar → **FV + cash** (gain/loss recognised); similar → **BV + cash** with the gain deferred, but a **loss is still booked** (FV + cash) when FV < BV. Trade-in allowance is only a last-resort proxy for FV.
 
 **Related:** [[FRA Session 11]] · [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]
