@@ -25,7 +25,7 @@ dg-publish: false
 | 2 | Disposal gain/loss | credit asset at **gross**; "1 April" distractor | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange\|13]] |
 | 3 | Change in useful-life **estimate** | spread carrying amount over **remaining** life | [[14-Depreciation-Methods-and-Changes\|14]] |
 | 4 | **Part-year** depreciation | Jul→Mar = **9 months (0.75)** | [[14-Depreciation-Methods-and-Changes\|14]] |
-| 5 | Revaluation **then disposal** | amount to General Reserve = proceeds − **original** BV | [[16-Revaluation-of-Fixed-Assets\|16]] |
+| 5 | Revaluation **then disposal** | whole surplus → Gen. Reserve; **net** = proceeds − original BV | [[16-Revaluation-of-Fixed-Assets\|16]] |
 | 6 | Exchange — **similar** assets | BV + cash; ignore fair value | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange\|13]] |
 | 7 | Exchange — **dissimilar** assets | FV + cash; recognise gain | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange\|13]] |
 | 8 | **Purchased** vs internal intangible | can't capitalise internal brand spend | [[18-Intangible-Assets\|18]] |
@@ -59,9 +59,8 @@ dg-publish: false
 
 > [!question] Q5 — Revaluation then immediate disposal
 > Machine BV ₹3,00,000 revalued to ₹3,50,000 (reserve ₹50,000), sold immediately for ₹3,20,000. Amount transferred to **General Reserve**?
->> [!success]- Reveal — **₹20,000**
->> The realised amount into General Reserve = proceeds − **original** book value = 3,20,000 − 3,00,000 = **₹20,000**.
->> (Long way: reserve ₹50,000 less the ₹30,000 loss vs revalued carrying amount = ₹20,000.) The reserve moves **directly to General Reserve**, never through P&L.
+>> [!success]- Reveal — **₹20,000** (net)
+>> The full ₹50,000 surplus transfers RR → General Reserve; the ₹30,000 loss on sale (3,20,000 − revalued 3,50,000) hits P&L separately; the **net** addition to reserves = 50,000 − 30,000 = **₹20,000** = proceeds − **original** BV (3,20,000 − 3,00,000). If the exam instead asks what leaves the *revaluation reserve*, that's the whole **₹50,000**. The reserve transfer never runs through P&L.
 
 > [!question] Q6 — Exchange, **similar** assets (vehicle for vehicle)
 > Old vehicle BV ₹2,00,000, FV ₹2,20,000; cash ₹1,70,000; invoice ₹4,00,000. New vehicle recorded at?
@@ -103,6 +102,6 @@ dg-publish: false
 > 2. **Disposal credits the asset at gross**, not net (Q2).
 > 3. **Estimate/method changes are prospective** — carrying amount over remaining life (Q3).
 > 4. **Similar swap = BV + cash; dissimilar swap = FV + cash** (Q6 vs Q7).
-> 5. **Revaluation surplus never touches P&L** — on disposal it goes to General Reserve; the realised amount = proceeds − original BV (Q5).
+> 5. **Revaluation surplus never touches P&L** — on disposal the whole surplus goes to General Reserve, with the sale gain/loss booked separately in P&L; the *net* into reserves = proceeds − original BV (Q5).
 
 **Related:** [[93-Past-Papers-Review-Quiz-2-4]] · [[96-Mock-Quiz-3-Predicted]] · [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]] · [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[18-Intangible-Assets]]

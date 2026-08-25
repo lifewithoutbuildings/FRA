@@ -28,18 +28,14 @@ dg-publish: false
 
 ## 1. The rules (Ind AS 16 / IAS 16)
 
+Revaluation is a **policy choice** applied to an **entire class** at once — all land, or all buildings, never one cherry-picked asset (paras 29, 36). A revaluation gain isn't something you *earned* by trading; the market simply moved, so it's parked in equity rather than run through this year's profit, and becomes distributable only as it's realised through use or sale. That logic drives the routing:
+
 > [!important] Direction rules
-> - It is a **policy choice**, applied to an **entire class** at once (all land, or all buildings — no cherry-picking). *(paras 29, 36)*
 > - Value **UP** → **Revaluation Reserve** in equity, through **OCI**, **not** profit. *(para 39)*
-> - Value **DOWN** → **P&L**, *except* to the extent it reverses a surplus already sitting in the reserve for **that same asset** (then it hits OCI/reduces the reserve first). *(para 40)*
-> - **On disposal**, the reserve balance for that asset is transferred **directly to retained/general reserve** — **not** through P&L.
+> - Value **DOWN** → **P&L**, *except* to the extent it reverses a surplus already sitting in the reserve for **that same asset** (then it reduces the reserve/OCI first). *(para 40)*
+> - **On disposal**, the **whole** surplus for that asset transfers **directly to retained/general reserve** — **not** through P&L (the sale gain/loss is a separate P&L line).
 
-> [!note] Why the reserve isn't profit
-> A revaluation gain wasn't *earned* by trading — the market just moved. So it's parked in equity, not shown as this year's profit. It becomes distributable only as it is realised (through use or sale).
-
-> [!important] The two reasons the Revaluation Reserve moves year to year (Day 3 takeaway)
-> **(a) Excess depreciation** — depreciation on the revalued amount exceeds depreciation on original cost. That **excess** may be transferred **Revaluation Reserve → General Reserve** each year, so **distributable profit is unaffected** by the revaluation.
-> **(b) Fresh revaluations** — an upward revaluation increases the reserve; a downward one reduces it.
+Once revalued, the reserve then moves for two reasons. First, **excess depreciation**: depreciation on the revalued amount runs higher than it would on original cost, and that excess *may* be transferred **Revaluation Reserve → General Reserve** each year so the revaluation doesn't inflate distributable profit. Second, **fresh revaluations**: a later up-revaluation adds to the reserve, a down-revaluation reduces it.
 
 ---
 
@@ -75,6 +71,9 @@ dg-publish: false
 | **Total accumulated depreciation** | **49,40,000** | **61,75,000** |
 | **Net book value** | **15,60,000** | **3,25,000** |
 | **Revaluation Reserve** | **5,59,000** | **5,59,000** |
+
+> [!note] Why Jiva's reserve sits still but Yash's falls each year
+> The annual RR → General Reserve transfer of *excess depreciation* is **permitted, not required** (Ind AS 16, para 41). Jiva simply doesn't make it, so its reserve holds at ₹5,59,000 until disposal; Yash (below) *does* make it, so its reserve is drawn down year by year. Both are acceptable — just don't expect the reserve to move on its own when the transfer isn't being made.
 
 ---
 
@@ -113,13 +112,13 @@ dg-publish: false
 
 ## 5. Revaluation + disposal (Fun Quiz Q5 pattern)
 
-> [!important] On disposal, the reserve for that asset → General Reserve (not P&L)
-> The realised portion of the surplus becomes distributable, but it is moved **directly** to retained/general reserve, bypassing the income statement.
+> [!important] On disposal, the whole surplus for that asset → General Reserve (not P&L)
+> When the asset leaves the books, the **entire** revaluation surplus sitting against it transfers **directly** to retained/general reserve, bypassing the income statement (Ind AS 16 — "transfer the whole of the revaluation surplus … when the asset is disposed of"). The gain or loss on the sale itself is a **separate** line that does go through **P&L**.
 
 > [!example] Fun Quiz Q5 — revalue, then sell immediately
 > Machine BV ₹3,00,000, revalued to ₹3,50,000 (Revaluation Reserve ₹50,000). Sold immediately for ₹3,20,000. **Amount transferred to General Reserve?**
->> On sale, compare cash to the **revalued** carrying amount: 3,20,000 − 3,50,000 = **loss ₹30,000** (to P&L, or absorbed against the surplus). The surplus of ₹50,000 is realised on disposal but ₹30,000 of it has evaporated in the loss, so the **net amount that ends up in General Reserve = 50,000 − 30,000 = ₹20,000** — which equals the true gain over *original* book value (3,20,000 − 3,00,000). **Answer: ₹20,000.**
->> Shortcut to remember: **the amount realised into General Reserve = sale proceeds − original book value = 3,20,000 − 3,00,000 = ₹20,000.**
+>> Two separate moves. **(1) Reserve transfer:** the full ₹50,000 surplus goes RR → General Reserve. **(2) P&L:** loss on sale = proceeds − revalued carrying = 3,20,000 − 3,50,000 = **₹30,000 loss**. The *net* addition to reserves/retained earnings = 50,000 − 30,000 = **₹20,000**, which equals the true gain over *original* book value (3,20,000 − 3,00,000). **The professor's answer is ₹20,000 — the net figure.**
+>> **Watch the wording.** ₹20,000 is the *net* effect. The amount that actually leaves the *revaluation reserve* is the whole **₹50,000**; only if the question asks for the **net** landing in general reserve is it ₹20,000 (= proceeds − original BV). Read which one it wants.
 
 ---
 
@@ -139,6 +138,6 @@ dg-publish: false
 - Recompute depreciation on the **revalued amount / remaining life**; transfer the **excess depreciation RR→General Reserve** so distributable profit is unchanged.
 - **Jiva:** RR ₹5,59,000, rate 19%, revalued dep ₹12,35,000.
 - **Yash:** transfers 10,300 / 15,000 / 11,360; 2019 downward revaluation reduces the reserve (OCI), not P&L.
-- **Disposal (Q5):** amount to General Reserve = proceeds − **original** book value = ₹20,000.
+- **Disposal (Q5):** whole surplus (₹50,000) → General Reserve, sale loss (₹30,000) → P&L; **net** to reserves = proceeds − original BV = ₹20,000.
 
 **Related:** [[FRA Session 13]] · [[17-Impairment-of-Assets]] · [[14-Depreciation-Methods-and-Changes]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]

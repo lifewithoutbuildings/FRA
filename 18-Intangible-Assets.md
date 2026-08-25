@@ -30,7 +30,7 @@ dg-publish: false
 
 > [!important] The duality (get this and the rest follows)
 > - **Acquired** intangibles (bought, or picked up in a business combination) → **recognised** on the balance sheet, because there's a **verifiable price** — an arm's-length transaction fixed the number.
-> - **Internally generated** intangibles (your own brand, customer list, goodwill) → **not recognised**, because any value you'd put on them is **self-assessed and easy to inflate**. The *one exception* is internally generated **software**, which is recognised.
+> - **Internally generated** intangibles (your own brand, customer list, goodwill) → **not recognised**, because any value you'd put on them is **self-assessed and easy to inflate**. **Software is the practical exception** — but only because its *development-phase* costs pass the normal capitalise test (below), not because internally generated software is waved onto the books wholesale.
 >
 > **Why it matters (the analyst's problem):** this duality **breaks comparability**. Two firms with identical economics look different — the one that *bought* its brand shows an asset; the one that *built* its brand shows nothing but a trail of expenses. So analysts **restructure**: they treat brand/R&D spend as an *"expensed investment,"* capitalise and amortise it over an assumed life, and restate goodwill at cost — purely to make **ROI comparable** across the industry. Research shows the capital market prices the economics correctly *as long as it understands the policy* — the accounting label doesn't change value, but it does change the reported ratios.
 
@@ -43,7 +43,7 @@ dg-publish: false
 
 > [!important] Recognition
 > - **Purchased** intangible (patent, licence, brand, franchise) → **capitalise** at cost.
-> - **Internally generated** brand, customer list, masthead, **goodwill** → **cannot** be capitalised (paras 48, 63). Exception: internally generated **software**.
+> - **Internally generated** brand, customer list, masthead, **goodwill** → **cannot** be capitalised (paras 48, 63). **Software** is treated under the research/development rule below — its *development* costs *can* be capitalised (as in Q9).
 > - **Research** phase → **always expensed** (too speculative). **Development** phase → **capitalise** *only* once technically feasible and saleable (paras 54, 57).
 
 > [!important] Amortisation — Indian AS vs IFRS (a live exam contrast)
@@ -65,7 +65,7 @@ dg-publish: false
 | **Copyright** | Author's life + 60 years | Cost of acquisition; amortise over **useful life if shorter than legal life** |
 | **Trademark / Brand** | 10 years, **renewable indefinitely** | Cost of acquisition; amortise over useful life; **do not recognise internally generated brands** |
 | **Franchise / Licence** | Term of the contract | Record the lump-sum payment; amortise over the **franchise/licence period** |
-| **Goodwill** | — (excess of purchase price over FV of net assets) | Record **purchased** goodwill at cost; Indian AS amortise ~3–5 yrs / IFRS impairment-only; **never recognise internal goodwill** |
+| **Goodwill** | — (excess of purchase price over FV of net assets) | Record **purchased** goodwill at cost; Indian AS amortise over ≤5 yrs / IFRS impairment-only; **never recognise internal goodwill** |
 
 > [!tip] The recurring computational move
 > "Legal life is X, useful life is Y (< X) → amortise over **Y**." A trademark is the odd one out — its legal life is *indefinitely renewable*, so **useful life always governs**. Franchises are the other way: amortise over the **contract term**, even if you think you'd use it longer.
@@ -99,7 +99,7 @@ dg-publish: false
 
 ---
 
-## 5. Goodwill impairment lives at the CGU level (links to [[17-Impairment-of-Assets|note 17]])
+## 5. Goodwill impairment lives at the CGU level
 
 > [!important] Why goodwill can't be tested alone — and the write-off order
 > Goodwill generates no cash by itself, so it's tested inside a **Cash Generating Unit (CGU)** — the smallest group of assets that earns cash independently (e.g. a division the goodwill was allocated to).
@@ -118,7 +118,7 @@ dg-publish: false
 ## Traps
 
 > [!warning]
-> - **Capitalising internal brand-building / customer lists / internal goodwill** — expensed; only *purchased* intangibles go on the books (software excepted).
+> - **Capitalising internal brand-building / customer lists / internal goodwill** — expensed; only *purchased* intangibles go on the books (software follows the research/development rule).
 > - **Capitalising research** — always expensed; only *development* (feasible + saleable) is capitalised.
 > - **Amortising over the legal/copyright life** when useful life is shorter — use the **shorter**. (Trademark: useful life always governs; franchise: contract term governs.)
 > - **Amortising goodwill under IFRS** — it isn't (Indian AS ≤5 yrs; IFRS impairment-only). Know **which framework** the question uses.

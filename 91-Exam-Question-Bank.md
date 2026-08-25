@@ -394,8 +394,13 @@ dg-publish: false
 >> [!success]- Answer
 >> **(c) $1,40,000.** Capitalise development only; amortise over **useful life 5 yrs** → 1,75,000 − 35,000. → [[18-Intangible-Assets]]
 
+> [!question] Q3.12 — An airline lengthens fleet life and raises salvage %. Immediate effect on reported profit:
+> a) lower  b) higher  c) unchanged  d) cannot say
+>> [!success]- Answer
+>> **(b) higher** — less annual depreciation. The Delta 1993 move. → [[15-Depreciation-Delta-Singapore-Airlines]]
+
 > [!question] Q3.13 — A patent has a 20-year legal life but management expects only 8 years of use. Amortise over:
-> a) 20 years  b) 8 years  c) the shorter of a life justified beyond 20  d) do not amortise
+> a) 20 years  b) 8 years  c) 28 years (20 + 8)  d) do not amortise
 >> [!success]- Answer
 >> **(b) 8 years** — useful life or legal life, **whichever is shorter**. → [[18-Intangible-Assets]]
 
@@ -413,11 +418,6 @@ dg-publish: false
 > a) they have no value  b) there is no verifiable transaction price, so the value would be self-assessed  c) tax law forbids it  d) they are current assets
 >> [!success]- Answer
 >> **(b)** — an arm's-length purchase fixes a verifiable number; a self-built intangible's value is easy to inflate. This duality is what breaks comparability. → [[18-Intangible-Assets#1. The intuition — why two different rules?]]
-
-> [!question] Q3.12 — An airline lengthens fleet life and raises salvage %. Immediate effect on reported profit:
-> a) lower  b) higher  c) unchanged  d) cannot say
->> [!success]- Answer
->> **(b) higher** — less annual depreciation. The Delta 1993 move. → [[15-Depreciation-Delta-Singapore-Airlines]]
 
 ---
 
