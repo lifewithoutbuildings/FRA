@@ -73,6 +73,43 @@ $$\text{Net Block} = \text{Gross Block (original cost)} - \text{Accumulated Depr
 
 ---
 
+## C2 · Quiz-3 Fixed Assets — Methods, Disposal, Revaluation, Impairment, Exchange
+→ [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]]
+
+**WDV (reducing-balance) rate — from cost:**
+$$r = 1 - \left(\frac{R}{C}\right)^{1/n} \qquad \text{charge}_t = r \times \text{opening book value}_t$$
+
+**WDV rate when switching method mid-life** (use carrying amount & remaining life, **not** cost/original life):
+$$r = 1 - \left(\frac{\text{Revised residual}}{\text{Carrying amount now}}\right)^{1/\text{remaining life}}$$
+
+**Production-unit method:**
+$$\text{unit rate} = \frac{\text{Cost} - \text{Residual}}{\text{Total estimated output}} \qquad \text{charge} = \text{unit rate} \times \text{output this year}$$
+
+**Change in estimate / method (prospective):**
+$$\text{Revised annual dep} = \frac{\text{Carrying amount now} - \text{Revised residual}}{\text{Remaining useful life}}$$
+
+**Disposal:**
+$$\text{Gain / (Loss)} = \text{Cash received} - \text{Net Book Value} \quad (\text{credit the asset at GROSS; debit accumulated dep separately})$$
+
+**Exchange (trade-in):**
+$$\text{Dissimilar (commercial substance)} \Rightarrow \text{FV of old} + \text{cash} \qquad \text{Similar} \Rightarrow \text{BV of old} + \text{cash (no gain/loss)}$$
+
+**Revaluation:** Up → **Revaluation Reserve (OCI)**; Down → **P&L** (unless reversing that asset's surplus). Depreciate on the **revalued amount / remaining life**.
+$$\text{Excess dep transferred RR}\to\text{General Reserve} = \text{dep on revalued amount} - \text{dep on original cost}$$
+$$\text{On disposal, to General Reserve} = \text{Sale proceeds} - \text{original book value}$$
+
+**Impairment:**
+$$\text{Recoverable amount} = \max(\text{Net selling price},\ \text{Value in use}), \quad \text{VIU} = \sum \frac{\text{cash flow}_t}{(1+i)^t}$$
+$$\text{Impairment} = \text{Carrying amount} - \text{Recoverable amount} \ (>0)$$
+> Loss hits the **Revaluation Reserve first, then P&L**. Ind AS allows reversal (not goodwill); US GAAP never.
+
+**Depreciation per $100 of gross value (Delta/Singapore comparability):**
+$$\frac{100 \times (1 - \text{salvage \%})}{\text{depreciable life}}$$
+
+**Intangibles:** purchased → capitalise; internally generated brand/goodwill → expense. Research → expense; development → capitalise (when feasible & saleable); amortise over **useful** life.
+
+---
+
 ## D · Income Statement → [[05-Income-Statement-PandL]]
 
 $$\text{Gross Profit} = \text{Revenue} - \text{COGS}$$

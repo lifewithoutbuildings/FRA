@@ -29,12 +29,21 @@ dg-home: false
 | 10  | [[10-Journal-Ledger-and-Trial-Balance]]            | Recording machinery in practice: journalising, ledger/T-accounts, balance c/d & b/d, trial balance; worked ten-transaction trading business                             | S5               |
 | 11  | [[11-Adjusting-Entries-and-Final-Accounts]]        | Period-end adjustments → final accounts; closing entries; accumulated depreciation; perpetual vs periodic inventory; capital vs revenue expenditure; Leisure Centre Ltd | S6               |
 | 12  | [[12-Adjusting-Entries-Practice-Narayanaswamy]]    | Full worked solutions — Narayanaswamy 4.14 (Admark), 4.15 (Navin Packaging), 4.16 (Mathew Adwaves, two periods)                                                         | S6 (practice)    |
+| 13  | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]] | Capitalise vs expense; acquisition cost; disposal (gross-value removal, gain/loss); exchange — similar vs dissimilar; Stafford Press + Fun Quiz                       | S11 / S12        |
+| 14  | [[14-Depreciation-Methods-and-Changes]]            | SLM / WDV / production-unit; WDV rate (cost vs mid-life switch); part-year; change in estimate & method (prospective)                                                    | S12              |
+| 15  | [[15-Depreciation-Delta-Singapore-Airlines]]       | Case: depreciation per $100 of gross value; managerial discretion; fleet-turnover → gain-on-sale strategy; all 5 questions answered                                      | S12 (case)       |
+| 16  | [[16-Revaluation-of-Fixed-Assets]]                 | Revaluation model; up→OCI/reserve, down→P&L; depreciation on revalued amount; reserve→general-reserve transfer; Jiva & Yash worked; disposal                            | S13              |
+| 17  | [[17-Impairment-of-Assets]]                        | Recoverable amount = max(NSP, value-in-use); impairment loss; reserve-first-then-P&L; Jaya fully worked with discount table                                             | S14              |
+| 18  | [[18-Intangible-Assets]]                           | Purchased vs internally generated; research (expense) vs development (capitalise); amortise over useful life; goodwill impairment-only; Fun Quiz Q8/Q9                   | S14              |
 
 ## Exam-prep layer
 
-- [[90-Master-Formula-Sheet]] — every formula in one place, each variable defined
-- [[91-Exam-Question-Bank]] — computational + conceptual practice per topic, with worked solutions
+- [[90-Master-Formula-Sheet]] — every formula in one place, each variable defined (§C2 = Quiz-3 fixed assets)
+- [[91-Exam-Question-Bank]] — computational + conceptual practice per topic, with worked solutions (Quiz-3 block at the end)
 - [[92-Past-Paper-Breakdown]] — Quiz 1 question-by-question, mapped to topic notes + patterns
+- [[93-Past-Papers-Review-Quiz-2-4]] — Quiz 2 worked in full; Quiz 3 & 4 mapped
+- [[95-Fun-Quiz-Session-14-Worked]] — **the professor's own Session-14 revision quiz, worked — closest thing to a Quiz-3 blueprint**
+- [[96-Mock-Quiz-3-Predicted]] — a fresh-numbers predicted Quiz 3
 
 ## Running cases (applied examples)
 
@@ -48,6 +57,10 @@ dg-home: false
 | **Ten-transaction trading business** | [[10-Journal-Ledger-and-Trial-Balance]] | Journal → ledger → trial balance drilled end-to-end; closing stock as an inventory balance |
 | **Leisure Centre Ltd (Problem 4.12)** | [[11-Adjusting-Entries-and-Final-Accounts]] | Seven period-end adjustments → adjusted final accounts; part-year depreciation; dividends ≠ expense |
 | **Narayanaswamy 4.14 / 4.15 / 4.16** | [[12-Adjusting-Entries-Practice-Narayanaswamy]] | Complete accounting cycle for service firms; accumulated depreciation; closing entries; two-period carry-forward |
+| **Stafford Press** | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]], [[FRA Session 11]] | All seven asset events — buy, sell, swap, wear-out, revalue, impair, intangibles — in one story |
+| **Delta vs Singapore Airlines** | [[15-Depreciation-Delta-Singapore-Airlines]] | Depreciation as managerial discretion; per-$100 comparability; strategy link |
+| **Jiva Industries / Yash Ltd** | [[16-Revaluation-of-Fixed-Assets]] | Revaluation on gross vs net basis; reserve mechanics; 3-yearly revaluation cycle |
+| **Jaya Heavy Industries** | [[17-Impairment-of-Assets]] | Value-in-use, recoverable amount, reserve-first impairment |
 
 ## Syllabus → topic cross-reference
 
@@ -77,7 +90,11 @@ Every topic serves one of the course's four aims. When revising, ask *which thru
 4. **Analysis** of financial statements — ratios, interpretation → introduced via the HUL reading notes; a later focus
 
 > [!note] Scope note
-> Topic notes now run through **Session 6** (adjusting entries & final accounts). Sessions 5–6 added the hands-on recording machinery ([[10-Journal-Ledger-and-Trial-Balance]]) and period-end adjustments ([[11-Adjusting-Entries-and-Final-Accounts]]). Some material (EPS diluted, convertible debentures, the full cash flow statement) reaches slightly beyond this — it is included where it appeared in your notes and is fair game once covered. The **Trading Account and Indian final-accounts illustrations** (returns, GST, provisions for doubtful debts, deferred revenue expenditure) are **Session 7** and not yet written up.
+> Topic notes now run through **Session 14** (long-term assets). Sessions 5–6 added the recording machinery ([[10-Journal-Ledger-and-Trial-Balance]]) and period-end adjustments ([[11-Adjusting-Entries-and-Final-Accounts]]); the **post-midterm block (Sessions 11–14)** is the **Quiz-3** material — long-term assets end to end ([[13-Long-Term-Assets-Acquisition-Disposal-Exchange|13]]–[[18-Intangible-Assets|18]]). **Inventory valuation (FIFO/LIFO) is NOT in the Quiz-3 scope** — it was not taught in Sessions 11–14 (confirmed), so it is deliberately absent from the mock. The raw session files ([[FRA Session 12]], [[FRA Session 13]]) remain as source dumps; the topic notes 13–18 are the canonical, worked layer.
+
+> [!todo] Still to fold in when you upload them
+> - **The actual Quiz-3 2015 paper** — [[93-Past-Papers-Review-Quiz-2-4|93]] only *maps* it; a full worked `95`-style breakdown is pending the paper.
+> - **Jiva SLM Illustration 1** (S13) and **Jaya impairment Illustration 3** — solutions are in [[16-Revaluation-of-Fixed-Assets|16]] / [[17-Impairment-of-Assets|17]]; the raw S13 file still shows the unsolved "Required" blocks.
 
 > [!warning] Corrections folded in from your own notes
 > While merging, three factual slips in `Financial_Accounting_Notes_Complete` were corrected in the topic notes. Each is flagged with a `> [!warning]` at the point it matters:

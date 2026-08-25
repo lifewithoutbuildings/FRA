@@ -1,0 +1,112 @@
+---
+title: 17 · Impairment of Assets
+course: Financial Reporting & Analysis
+tags:
+  - fra
+  - mba
+  - impairment
+  - ppe
+  - ind-as
+  - quiz-3
+standards:
+  - Ind AS 36
+  - AS 28
+running-case: Jaya Heavy Industries
+status: reviewed
+dg-publish: false
+---
+
+← [[16-Revaluation-of-Fixed-Assets]] | [[18-Intangible-Assets]] →
+
+> [!abstract] In one line
+> Impairment is the **nasty surprise** version of depreciation: the asset is suddenly worth less than the books say. Write it down to its **recoverable amount = the higher of (fair value less costs to sell) and (value in use)**, and take the hit to **P&L — but against any Revaluation Reserve first**.
+
+> [!important] The test (Day 4 takeaway)
+> If **carrying amount > recoverable amount**, impairment has occurred; write the asset down to the recoverable amount.
+> $$\text{Recoverable amount} = \max\big(\text{Net selling price},\ \text{Value in use}\big)$$
+> **Value in use (VIU)** = present value of future cash flows from using the asset + its eventual disposal, discounted at a pre-tax rate.
+
+> [!note] Depreciation vs impairment
+> Depreciation is the **planned** decline; impairment is the **unplanned** one (damage, obsolescence, collapsed demand). Physical damage is a **trigger to *test*** — but testing can conclude *no* impairment (Stafford's repaired machine, S11 §6).
+
+---
+
+## 1. Where the impairment loss goes
+
+> [!important] Revaluation Reserve absorbs it first (Day 4 takeaway)
+> - **No reserve:** whole loss → **P&L** (`Dr Impairment loss / Cr Asset`).
+> - **Reserve exists for that asset:** loss reduces the **Revaluation Reserve (OCI) first**, and only the **excess** goes to **P&L**.
+
+> [!note] Ind AS vs US GAAP
+> Under Ind AS 36, if conditions later improve you may **reverse** an impairment (except **goodwill**). US GAAP: **once down, stays down** — no reversal.
+
+---
+
+## 2. Worked — JAYA HEAVY INDUSTRIES (AS 28 / Ind AS 36)
+
+**Setup.** As at 31 Mar 2006, machine net book value **₹95.32 lacs** (net of this year's ₹15.50 lacs depreciation). Sluggish demand → test for impairment. Pre-tax discount rate **16%**. Net selling price **₹65.50 lacs**. Estimated pre-tax cash flows over the remaining 6 years:
+
+| Year | Operating CF | Disposal CF | Total | DF @16% | PV |
+|---|---:|---:|---:|---:|---:|
+| 2006–07 | 21.50 | — | 21.50 | 0.8621 | 18.53 |
+| 2007–08 | 20.85 | — | 20.85 | 0.7432 | 15.49 |
+| 2008–09 | 19.67 | — | 19.67 | 0.6407 | 12.60 |
+| 2009–10 | 17.44 | — | 17.44 | 0.5523 | 9.63 |
+| 2010–11 | 16.38 | — | 16.38 | 0.4761 | 7.80 |
+| 2011–12 | 16.23 | 4.86 | 21.09 | 0.4104 | 8.66 |
+| | | | | **Value in use** | **≈ 72.72** |
+
+> [!note] (1) Value in use
+> VIU = Σ PV ≈ **₹72.72 lacs** (small rounding: ₹72.70–72.72 depending on DF precision).
+
+> [!note] (2) Recoverable amount
+> = higher of NSP ₹65.50 and VIU ₹72.72 = **₹72.72 lacs**.
+
+> [!note] (3) Is it impaired? By how much?
+> Carrying amount ₹95.32 > recoverable ₹72.72 → **impaired by ₹22.60 lacs** (≈ 95.32 − 72.72).
+
+> [!note] (4) Impact on the financial statements — no prior reserve
+> ```
+> Dr  Impairment loss (P&L)        22.60
+>         Cr  Machine / Accum. impairment   22.60
+> ```
+> P&L profit falls ₹22.60 lacs; the asset's carrying amount falls to ₹72.72 lacs; future depreciation is recomputed on the lower base over the remaining life.
+
+> [!important] (5) & (6) — the two Revaluation-Reserve variants (the exam's favourite twist)
+> **If a Revaluation Reserve of ₹12 lacs exists for this machine:** the loss hits the reserve first.
+> - Reserve absorbs ₹12.00 lacs (→ OCI); **remaining ₹10.60 lacs → P&L**.
+>
+> **If the Revaluation Reserve were ₹25 lacs:** the reserve fully covers the loss.
+> - Entire **₹22.60 lacs absorbed by the reserve (OCI)**; **nothing hits P&L**.
+>
+> This is why the same impairment can have a *very* different effect on reported profit depending on revaluation history.
+
+---
+
+## 3. The three lookalikes, kept straight (S11 §6)
+
+| Situation | Response |
+|---|---|
+| Estimate of salvage/life was off | Adjust **depreciation going forward** ([[14-Depreciation-Methods-and-Changes|note 14]]) |
+| Asset worth less than book value | **Write down** — impairment (this note) |
+| Asset destroyed, no use left | **Remove entirely**, whole book value to loss |
+
+---
+
+## Traps
+
+> [!warning]
+> - **Recoverable = lower of** the two → it's the **HIGHER** of net selling price and value in use.
+> - **Discounting to the wrong rate / forgetting to discount** VIU — use the pre-tax rate (16%).
+> - **Routing the whole loss to P&L when a Revaluation Reserve exists** — reserve absorbs it first, P&L takes only the excess.
+> - **Reversing a goodwill impairment** — never allowed, even under Ind AS.
+> - **Treating physical damage as automatic impairment** — it's a *trigger to test*; the test can find none.
+
+## Key takeaways
+
+- Impaired if **carrying amount > recoverable amount**; recoverable = **max(net selling price, value in use)**.
+- **VIU** = PV of future operating + disposal cash flows at the pre-tax rate.
+- **Jaya:** VIU ≈ ₹72.72 lacs > NSP ₹65.50 → recoverable ₹72.72 → **impairment ≈ ₹22.60 lacs**. With RR ₹12 lacs → ₹10.60 to P&L; with RR ₹25 lacs → nil to P&L.
+- Loss hits **Revaluation Reserve first, then P&L**. Ind AS allows reversal (not goodwill); US GAAP never.
+
+**Related:** [[FRA Session 13]] · [[16-Revaluation-of-Fixed-Assets]] · [[14-Depreciation-Methods-and-Changes]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]
