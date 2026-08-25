@@ -28,10 +28,10 @@ status: complete
 dg-home: false
 ---
 
-← [[20-Agent-Principal-and-the-Microsoft-Case|Agent vs Principal & Microsoft]] | [[00-Course-Map|FRA Index]] | [[FRA Session 12]] →
+← [[20. Agent Principal and the Microsoft Case|Agent vs Principal & Microsoft]] | [[00. Course Map|FRA Index]] | [[13. Long Term Assets Acquisition Disposal Exchange|Topic note 13]] →
 
 > [!note] Canonical worked note
-> This is the full **Stafford Press** narrative. The exam-compressed version — rules, traps, and Fun-Quiz drills — is [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]]. See also [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[18-Intangible-Assets]].
+> This is the full **Stafford Press** narrative. The exam-compressed version — rules, traps, and Fun-Quiz drills — is [[13. Long Term Assets Acquisition Disposal Exchange]]. See also [[14. Depreciation Methods and Changes]] · [[16. Revaluation of Fixed Assets]] · [[17. Impairment of Assets]] · [[18. Intangible Assets]].
 
 ## Long-Term Assets
 

@@ -13,7 +13,7 @@ dg-publish: false
 # 95 · Fun Quiz (Session 14) — Worked & Mapped
 
 > [!info] Why this is the most important prep note for Quiz 3
-> This is the **professor's own revision quiz**, run in the last long-term-assets session. It is the closest thing you have to a Quiz-3 blueprint: it samples **every** sub-topic (capitalisation, disposal, change in estimate, part-year, revaluation-on-disposal, exchange both ways, intangibles) at exactly the difficulty and phrasing the professor favours. **Attempt each cold, then reveal.** Same format as [[92-Past-Paper-Breakdown]] / [[93-Past-Papers-Review-Quiz-2-4]].
+> This is the **professor's own revision quiz**, run in the last long-term-assets session. It is the closest thing you have to a Quiz-3 blueprint: it samples **every** sub-topic (capitalisation, disposal, change in estimate, part-year, revaluation-on-disposal, exchange both ways, intangibles) at exactly the difficulty and phrasing the professor favours. **Attempt each cold, then reveal.** Same format as [[Past Papers (Worked)]] / [[Past Papers (Worked)]].
 
 ---
 
@@ -21,15 +21,15 @@ dg-publish: false
 
 | Q | Tests | The trap | Note |
 |---|---|---|---|
-| 1 | SLM first-year + **what capitalises** | fuel is a *running* cost → expensed | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange\|13]] · [[14-Depreciation-Methods-and-Changes\|14]] |
-| 2 | Disposal gain/loss | credit asset at **gross**; "1 April" distractor | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange\|13]] |
-| 3 | Change in useful-life **estimate** | spread carrying amount over **remaining** life | [[14-Depreciation-Methods-and-Changes\|14]] |
-| 4 | **Part-year** depreciation | Jul→Mar = **9 months (0.75)** | [[14-Depreciation-Methods-and-Changes\|14]] |
-| 5 | Revaluation **then disposal** | amount to General Reserve = proceeds − **original** BV | [[16-Revaluation-of-Fixed-Assets\|16]] |
-| 6 | Exchange — **similar** assets | BV + cash; ignore fair value | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange\|13]] |
-| 7 | Exchange — **dissimilar** assets | FV + cash; recognise gain | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange\|13]] |
-| 8 | **Purchased** vs internal intangible | can't capitalise internal brand spend | [[18-Intangible-Assets\|18]] |
-| 9 | Research vs development + amortise | research expensed; amortise over **useful** life | [[18-Intangible-Assets\|18]] |
+| 1 | SLM first-year + **what capitalises** | fuel is a *running* cost → expensed | [[13. Long Term Assets Acquisition Disposal Exchange\|13]] · [[14. Depreciation Methods and Changes\|14]] |
+| 2 | Disposal gain/loss | credit asset at **gross**; "1 April" distractor | [[13. Long Term Assets Acquisition Disposal Exchange\|13]] |
+| 3 | Change in useful-life **estimate** | spread carrying amount over **remaining** life | [[14. Depreciation Methods and Changes\|14]] |
+| 4 | **Part-year** depreciation | Jul→Mar = **9 months (0.75)** | [[14. Depreciation Methods and Changes\|14]] |
+| 5 | Revaluation **then disposal** | amount to General Reserve = proceeds − **original** BV | [[16. Revaluation of Fixed Assets\|16]] |
+| 6 | Exchange — **similar** assets | BV + cash; ignore fair value | [[13. Long Term Assets Acquisition Disposal Exchange\|13]] |
+| 7 | Exchange — **dissimilar** assets | FV + cash; recognise gain | [[13. Long Term Assets Acquisition Disposal Exchange\|13]] |
+| 8 | **Purchased** vs internal intangible | can't capitalise internal brand spend | [[18. Intangible Assets\|18]] |
+| 9 | Research vs development + amortise | research expensed; amortise over **useful** life | [[18. Intangible Assets\|18]] |
 
 ---
 
@@ -105,4 +105,4 @@ dg-publish: false
 > 4. **Similar swap = BV + cash; dissimilar swap = FV + cash** (Q6 vs Q7).
 > 5. **Revaluation surplus never touches P&L** — on disposal it goes to General Reserve; the realised amount = proceeds − original BV (Q5).
 
-**Related:** [[93-Past-Papers-Review-Quiz-2-4]] · [[96-Mock-Quiz-3-Predicted]] · [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]] · [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[18-Intangible-Assets]]
+**Related:** [[Past Papers (Worked)]] · [[Mock Papers (Predicted)]] · [[13. Long Term Assets Acquisition Disposal Exchange]] · [[14. Depreciation Methods and Changes]] · [[16. Revaluation of Fixed Assets]] · [[17. Impairment of Assets]] · [[18. Intangible Assets]]

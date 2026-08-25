@@ -1,5 +1,5 @@
 > [!note] Case source — worked analysis in the topic note
-> Full case text + exhibits below. The **worked analysis** (depreciation per $100, all five questions answered, the strategy link) is [[15-Depreciation-Delta-Singapore-Airlines]]. Depreciation methods generally: [[14-Depreciation-Methods-and-Changes]].
+> Full case text + exhibits below. The **worked analysis** (depreciation per $100, all five questions answered, the strategy link) is [[15. Depreciation Delta Singapore Airlines]]. Depreciation methods generally: [[14. Depreciation Methods and Changes]].
 
 # Depreciation at Delta Air Lines and Singapore Airlines (A)
 

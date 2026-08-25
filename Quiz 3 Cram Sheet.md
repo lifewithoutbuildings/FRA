@@ -12,7 +12,7 @@ dg-publish: false
 # 97 · Quiz 3 — One-Page Cram Sheet
 
 > [!info] The night before
-> Every formula, rule, trap and recipe for **Sessions 11–14** on one page. Deep dives: [[13-Long-Term-Assets-Acquisition-Disposal-Exchange|13]]–[[18-Intangible-Assets|18]]. Drill: [[95-Fun-Quiz-Session-14-Worked|Fun Quiz]] · [[96-Mock-Quiz-3-Predicted|Mock Quiz 3]]. **Not in scope: inventory FIFO/LIFO.**
+> Every formula, rule, trap and recipe for **Sessions 11–14** on one page. Deep dives: [[13. Long Term Assets Acquisition Disposal Exchange|13]]–[[18. Intangible Assets|18]]. Drill: [[Fun Quiz (Session 14)|Fun Quiz]] · [[Mock Papers (Predicted)|Mock Quiz 3]]. **Not in scope: inventory FIFO/LIFO.**
 
 ## Acquisition — what capitalises
 **Test:** "needed to get it *ready to work* for the first time?" Yes → capitalise (invoice net of discount, freight, installation *wages*, site prep, testing). No → expense (overhead, own profit margin, opportunity cost, training, **fuel/running costs**, later repairs, **relocation of a working asset**). *Land:* + demolition of worthless building + permanent improvements; never depreciated.
@@ -64,4 +64,4 @@ Dep per $100 = **100(1−salvage%)/life**. 1993: Delta **$4.75**, Singapore **$8
 | Q1 SLM (fuel out) **$3,000** | Q2 disposal **$16,800 loss** | Q3 revised est. **₹20,000** | Q4 part-yr (9 mo) **₹4,800** |
 | Q5 reval+disposal **₹20,000** | Q6 similar **₹3,70,000** | Q7 dissimilar **₹3,90,000** | Q8 brand **₹50 lakhs** · Q9 software **$1,40,000** |
 
-**Related:** [[95-Fun-Quiz-Session-14-Worked]] · [[96-Mock-Quiz-3-Predicted]] · [[90-Master-Formula-Sheet]] · [[00-Course-Map]]
+**Related:** [[Fun Quiz (Session 14)]] · [[Mock Papers (Predicted)]] · [[90. Master Formula Sheet]] · [[00. Course Map]]
