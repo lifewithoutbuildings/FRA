@@ -1,0 +1,191 @@
+---
+tags:
+  - fra
+  - topic
+  - accounting-equation
+  - session-3
+  - session-4
+course: Financial Reporting & Analysis
+syllabus: Session 3 / Session 4 (Part B)
+dg-publish: false
+---
+
+# 08 · The Accounting Equation
+
+> [!info] What this note covers
+> The **basic** equation and *why* it can never not balance · the **expanded** equation (bringing revenue & expenses in as components of equity) · retained earnings as the bridge to the balance sheet · **transaction-effect analysis** (the skill Quiz 1 tests most) · worked cases: **Music Mart** and **John Fruit**. Recording mechanics (debits/credits) are in [[09-The-Accounting-Cycle-Recording-Transactions]].
+
+---
+
+## 1. The basic equation
+
+$$\boxed{\text{Assets} = \text{Liabilities} + \text{Equity}}$$
+
+> [!note] Why it always balances
+> Every resource the business controls (an **asset**) had to be **financed by someone** — either outsiders (**liabilities**) or the owners (**equity**). So the total of what the firm **owns** must equal the total of the **claims** against it. Restated: **uses of funds (assets) = sources of funds (liabilities + equity).**
+
+It stays balanced after **every** transaction because of the **[[07-Conceptual-Framework-and-Core-Concepts#Dual Aspect (Duality) Concept|dual-aspect]]** rule: each transaction changes at least two accounts by **equal and offsetting** amounts. Buy inventory on credit → asset ↑ and liability ↑ by the same figure → identity preserved.
+
+> [!question] Quiz 1 Q13 — Liabilities ₹8,00,000, Capital ₹7,00,000. Total assets?
+> $$A = L + E = 8,00,000 + 7,00,000 = \textbf{15,00,000}$$ (option b). A pure plug-in of the identity.
+
+### The four ways a transaction can move the equation
+
+Any transaction is one of these patterns (all keep A = L + E):
+
+| Pattern | Example |
+|---|---|
+| Asset ↑ / Asset ↓ (swap) | Buy equipment for cash; collect from a debtor |
+| Asset ↑ / Liability ↑ | Buy inventory on credit; take a loan |
+| Asset ↑ / Equity ↑ | Owner invests cash; earn revenue in cash |
+| Asset ↓ / Liability ↓ | Pay a creditor; repay a loan |
+| Asset ↓ / Equity ↓ | Pay an expense in cash; owner's drawings |
+| Liability ↑ / Equity ↓ | Accrue an expense (e.g. rent due) |
+
+> [!warning] Quiz 1 traps built on these patterns
+> - **Q2** — paying a supplier (account payable): **decrease asset (cash), decrease liability (payable)** → "b".
+> - **Q7** — rent *due* to be paid: **increase expense (equity ↓), increase liability** → "c".
+> - **Q18** — what *decreases* assets? **Payment of expenses** → "c".
+> - **Q20** — machinery for cash: **asset-for-asset swap → total assets unchanged** → "c".
+
+---
+
+## 2. The expanded equation — bringing in revenue and expenses
+
+The basic form is **incomplete**: it says nothing about how *operations* change equity. Revenue and expenses are actually **components of equity** — revenue **increases** it, expenses **decrease** it (and owner drawings/dividends decrease it too):
+
+$$\text{Assets} = \text{Liabilities} + \text{Equity} + \text{Revenue} - \text{Expenses}$$
+
+Or, grouping the operating result inside equity:
+
+$$\text{Assets} = \text{Liabilities} + \underbrace{\text{Contributed Capital}}_{\text{owner investment}} + \underbrace{\text{Retained Earnings}}_{\text{Rev} - \text{Exp} - \text{Dividends}}$$
+
+> [!note] Retained earnings — the bridge between the two statements
+> **Retained earnings** is the running total of (Revenue − Expenses) less amounts paid out to owners. It is what **carries the income statement's result back into the balance sheet's equity.** This is the articulation from [[02-The-Annual-Report-and-Three-Statements#2. How the three statements link (articulation)|How the three statements link?]] expressed as algebra.
+
+> [!tip] Splitting the expanded equation into two statements
+> The expanded equation cleaves neatly into the two statements:
+> - **Balance Sheet** — Assets on one side; Liabilities + Equity on the other.
+> - **P&L** — Revenues and Expenses.
+>
+> **Whenever you prepare a balance sheet, first find (Revenue − Expenses) and add it to Equity if a profit, subtract if a loss.** That single step is how the P&L result lands in the balance sheet.
+
+### Quiz application
+
+> [!question] Quiz 1 Q1 — find total assets (the flagship computational question)
+> Given: Beginning retained earnings 6,000; Liabilities 11,000; Contributed capital 5,000; Revenue 18,000; Expenses 15,500; Dividends 1,500.
+>
+> **Step 1 — closing retained earnings:**
+> $$6,000 + (18,000 - 15,500) - 1,500 = 6,000 + 2,500 - 1,500 = 5,000$$
+> **Step 2 — total equity:** contributed capital + retained earnings = 5,000 + 5,000 = **10,000**.
+> **Step 3 — total assets:** A = L + E = 11,000 + 10,000 = **₹21,000**.
+>
+> The options were 23,000 / 12,000 / 45,000 / None → **d. None of the above** (₹21,000). *This question rewards doing the retained-earnings roll-forward before applying A = L + E.*
+
+> [!question] Quiz 1 Q19 — closing capital
+> Opening capital 4,10,000 + Profit 50,000 − Drawings 40,000 = **₹4,20,000** (option c). Same roll-forward, fewer steps.
+
+---
+
+## 3. Transaction-effect analysis — the core skill
+
+The exam's most repeated task: given a transaction, state **which accounts move, by how much, and in which direction**, keeping A = L + E intact. The reliable method (from the Music Mart instructions):
+
+1. Identify the **two (or more) accounts** the transaction touches.
+2. Mark each **+ or −** and the **amount**.
+3. Check the equation still balances.
+4. Watch for **no-effect** events (below).
+
+> [!tip] The "no-effect" events — a favourite trap
+> Some events feel like transactions but **don't change the balance sheet at all**:
+> - A **rejected offer** or a mere valuation opinion (no transaction happened).
+> - **Internally generated goodwill** or writing an asset up to market (historical cost).
+> - An **owner selling their personal shares** to a third party (the *company* receives/pays nothing — only *who* owns the equity changes).
+
+---
+
+## 4. Worked case — Music Mart, Inc.
+
+> [!example] The case setup
+> Set up Music Mart's balance sheet after the last transaction (January 4), then record the effect of each event, preserving **Assets = Liabilities + Owners' equity** throughout. *(© Professor Robert N. Anthony.)*
+
+### Effect of each event on the balance sheet
+
+| #   | Effect (A = L + Owners' equity preserved throughout)                                                                                           |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Inventory **+5,000**; Accounts payable **+5,000** *(buy inventory on credit)*                                                                  |
+| 2   | Cash **+2,300**; Inventory **−1,500**; Retained earnings **+800** *(profit = 2,300 − 1,500)*                                                   |
+| 3   | Accounts receivable **+2,620**; Inventory **−1,700**; Retained earnings **+920** *(credit sale)*                                               |
+| 4   | Prepaid insurance **+1,224**; Cash **−1,224** *(asset-for-asset swap — no effect on L or E)*                                                   |
+| 5   | Land **+24,000**; Cash **−6,000**; Mortgage payable **+18,000**                                                                                |
+| 6   | Cash **+3,000**; Land **−12,000**; Mortgage payable **−9,000** *(sold at cost → no gain/loss)*                                                 |
+| 7   | **No effect** — a rejected offer isn't a transaction; internally generated goodwill (33,000 − 26,970 = 6,030) is never recorded                |
+| 8   | Cash **−1,000**; Retained earnings **−1,000** *(owner's drawings, in cash)*                                                                    |
+| 9   | Inventory **−750**; Retained earnings **−750** *(drawings taken in goods, at cost)*                                                            |
+| 10  | **No effect** — historical cost; the retained lot is *not* written up to 14,000 on a third party's resale                                      |
+| 11  | Cash **−6,000**; Notes payable **−6,000** *(repay note; ignore interest)*                                                                      |
+| 12  | **No effect** — Smith sells *his personal* shares to a third party; the company receives and pays nothing (only *who* owns the equity changes) |
+| 13  | Cash **+1,310**; Inventory **−850**; Retained earnings **+460** *(cash sale)*                                                                  |
+
+> [!note] Notice the "double dual aspect" on every sale (events 2, 3, 13)
+> Each sale records **both** the revenue side (Cash/AR ↑, retained earnings ↑ by the *profit*) **and** the cost side (Inventory ↓). Recording the sale forces recording the cost of what was sold — the **[[07-Conceptual-Framework-and-Core-Concepts#Matching Concept|matching]]** concept.
+
+> [!warning] Missing data — final balance sheet can't be closed yet
+> To draft the finished balance sheet *in proper form*, you need Music Mart's **January 4 opening balances** (the figures from the text preceding these events). The uploaded case text still doesn't include them. **Paste the January-4 opening balance sheet and I'll roll these 13 effects forward into a completed statement.** The transaction-effect analysis above is complete and correct regardless.
+
+---
+
+## 5. Worked case — John Fruit (building a balance sheet from scratch)
+
+> [!example] Transactions
+> 1. Starts business with **$25,000**.
+> 2. Raises a loan of **$12,500**.
+> 3. Purchases inventory for **$5,000 (cash)**.
+> 4. Sells inventory costing **$500** for **$750 (cash)**.
+
+Step-by-step effects:
+
+| Transaction | Assets | Liabilities / Equity |
+|---|---|---|
+| Start with $25,000 | Cash **+25,000** | Owner's equity **+25,000** |
+| Loan of $12,500 | Cash **+12,500** | Loan **+12,500** |
+| Buy inventory $5,000 cash | Cash **−5,000**; Inventory **+5,000** | *no change* |
+| Sell goods (cost 500) for 750 cash | Cash **+750**; Inventory **−500** | Owner's equity **+250** *(profit)* |
+
+> [!warning] Correcting the original note
+> Buying inventory for cash is an **asset-for-asset swap**: Cash **−5,000** and Inventory **+5,000**, *both on the asset side*, with **no** entry on the liability/equity side. The original note wrongly put "Inventory +12,500" on the L/E side — inventory is an **asset**, and the amount is **5,000**, not 12,500.
+
+**Resulting balance sheet:**
+
+| Assets | $ | Liabilities + Equity | $ |
+|---|---:|---|---:|
+| Cash/bank | 33,250 | Loan | 12,500 |
+| Inventory | 4,500 | Owner's equity | 25,250 |
+| **Total** | **37,750** | **Total** | **37,750** |
+
+*(Cash = 25,000 + 12,500 − 5,000 + 750 = 33,250. Inventory = 5,000 − 500 = 4,500. Equity = 25,000 + 250 profit = 25,250. It balances at 37,750.)*
+
+---
+
+## Common mistakes (Accounting Equation)
+
+> [!warning] Gotchas
+> - **Putting inventory on the L/E side** — inventory is an **asset**; a cash purchase is an asset swap.
+> - **Recording revenue's full amount in equity instead of the profit** — on a sale, equity rises by the **margin** (price − cost), because inventory falls by the cost simultaneously.
+> - **Forgetting the retained-earnings roll-forward** before applying A = L + E (Q1).
+> - **Treating no-effect events as transactions** — rejected offers, internally generated goodwill, market write-ups, owners trading their own shares (events 7, 10, 12).
+> - **Owner's drawings booked as an expense** — it reduces **equity**, not profit.
+
+---
+
+## Key takeaways
+
+- **A = L + E** always holds because every asset is financed by a claim, and every transaction has **dual (offsetting) effects**.
+- The **expanded equation** folds revenue (↑) and expenses (↓) into equity; **retained earnings** is the bridge to the balance sheet.
+- **Transaction-effect analysis**: name the accounts, sign them, check the balance, spot **no-effect** events.
+- On a sale, equity moves by the **profit**; buying an asset for cash is a **swap** (no equity effect).
+- Quiz 1's computational core (Q1, Q13, Q19) is pure equation roll-forward.
+
+---
+
+**Related:** [[07-Conceptual-Framework-and-Core-Concepts]] · [[09-The-Accounting-Cycle-Recording-Transactions]] · [[04-Balance-Sheet-Equity-and-Liabilities]] · [[Music Mart]] · [[91-Exam-Question-Bank]] · [[90-Master-Formula-Sheet]]

@@ -1,0 +1,423 @@
+---
+tags:
+  - fra
+  - topic
+  - adjusting-entries
+  - final-accounts
+  - depreciation
+  - accruals
+  - session-6
+course: Financial Reporting & Analysis
+syllabus: Session 6
+dg-publish: false
+---
+
+# 11 · Adjusting Entries & Final Accounts
+
+> [!info] What this note covers
+> Session 6 completes the cycle: it takes an **unadjusted trial balance** ([[10-Journal-Ledger-and-Trial-Balance|Session 5]]) and turns it into **final accounts** (P&L + balance sheet) by inserting the **period-end adjusting entries** — depreciation, accruals, prepayments, unearned revenue and supplies/inventory consumed. Two worked cases: a **three-transaction warm-up** (owner invests ₹50,000) that runs the whole cycle on a tiny scale, and the capstone **Leisure Centre Ltd (Problem 4.12)**, a full adjusting-entries problem with seven adjustments. It then covers the Day-8 concepts: **closing entries, accumulated depreciation, perpetual vs periodic inventory, and capital vs revenue expenditure.**
+
+> [!important] The teacher's method — go straight to the statements (Day 7)
+> The classroom shortcut: **do not prepare a full adjusted trial balance.** For each adjustment, apply its **dual aspect directly to the P&L and the balance sheet** — one leg hits an income/expense line, the other hits an asset/liability. Prepare **adjusting journal entries only when the question explicitly asks for them.** The adjusted trial balance shown at the end of the Leisure Centre case is included **only as an optional cross-check**, not a required step.
+>
+> **Practice set (Narayanaswamy):** 4.12 (below), plus **4.14, 4.15, 4.16** — fully worked in [[12-Adjusting-Entries-Practice-Narayanaswamy]].
+
+---
+
+## 1. Why adjusting entries exist
+
+Most transactions are **explicit** — they arrive with a document (an invoice, a receipt). But [[07-Conceptual-Framework-and-Core-Concepts#Accrual Concept|accrual accounting]] says we must record economic events **in the period they occur, whether or not cash moved.** At period-end, several such events have happened *without* a fresh document. Recording them is the job of **adjusting entries** — the "implicit transactions."
+
+> [!important] The five adjustment types (memorise these)
+> | Type | Situation | Adjusting entry | Effect |
+> |---|---|---|---|
+> | **Accrued expense** | Cost incurred, not yet paid (salaries, electricity) | Dr Expense · Cr Payable | Expense ↑, Liability ↑ |
+> | **Accrued revenue** | Earned, not yet billed/received | Dr Receivable · Cr Revenue | Asset ↑, Revenue ↑ |
+> | **Prepaid expense expiring** | Paid in advance, benefit now used up (insurance) | Dr Expense · Cr Prepaid asset | Expense ↑, Asset ↓ |
+> | **Unearned revenue earned** | Cash taken in advance, now delivered | Dr Unearned (liability) · Cr Revenue | Liability ↓, Revenue ↑ |
+> | **Depreciation / supplies consumed** | Long-lived asset or stock of supplies used up | Dr Expense · Cr Asset | Expense ↑, Asset ↓ |
+
+> [!warning] The most-missed adjustments
+> **Depreciation, accrued interest/salaries, and prepaid insurance expiring** are planted by examiners precisely because **no cash moves** this period, so students skip them. Every one of them either overstates profit (if the expense is missed) or overstates assets (if the reduction is missed).
+
+---
+
+## 2. Warm-up case — owner invests ₹50,000 (the whole cycle in miniature)
+
+> [!example] Three transactions
+> 1. Owner brings in **₹50,000** cash as capital.
+> 2. Services provided for **₹10,000** cash.
+> 3. Expenses incurred **₹6,000** cash.
+
+### Effect on the expanded equation
+
+| A | = | L | + | Eq | + | Rev | − | Exp |
+|---:|:-:|:-:|:-:|---:|:-:|---:|:-:|---:|
+| 50,000 | = | | | 50,000 | | | | |
+| 10,000 | = | | | | | 10,000 | | |
+| (6,000) | = | | | | | | | 6,000 |
+| **54,000** | **=** | | | **50,000** | | **10,000** | | **6,000** |
+
+### Journal → Ledger → Trial Balance
+
+| # | Journal entry |
+|---|---|
+| 1 | Cash A/c **Dr 50,000** · To Equity **50,000** |
+| 2 | Cash A/c **Dr 10,000** · To Sales **10,000** |
+| 3 | Expenses **Dr 6,000** · To Cash A/c **6,000** |
+
+> [!note] Explanation — why each entry is debited/credited
+> Apply DEAD CLIC to each line:
+> 1. **Owner brings ₹50,000** — Cash (asset) comes in → **debit Cash**; the owner's claim rises → **credit Equity**. Asset ↑ / Equity ↑.
+> 2. **Services for ₹10,000 cash** — Cash (asset) rises → **debit Cash**; revenue is earned → **credit Sales**. Asset ↑ / Revenue ↑.
+> 3. **Expenses ₹6,000 cash** — an expense is incurred → **debit Expenses**; Cash (asset) leaves → **credit Cash**. Expense ↑ / Asset ↓.
+
+**Cash A/c** balances to **₹54,000 Dr** (50,000 + 10,000 in, 6,000 out). Equity ₹50,000 Cr, Sales ₹10,000 Cr, Expenses ₹6,000 Dr.
+
+| Trial Balance | Debit (₹) | Credit (₹) |
+|---|---:|---:|
+| Cash | 54,000 | |
+| Expenses | 6,000 | |
+| Equity | | 50,000 |
+| Sales | | 10,000 |
+| **Total** | **60,000** | **60,000** |
+
+### Final accounts
+
+**P&L:** Sales 10,000 − Expenses 6,000 = **Net profit ₹4,000.**
+
+**Balance Sheet**
+
+| Assets | ₹ | Liabilities & Equity | ₹ |
+|---|---:|---|---:|
+| Cash | 54,000 | Equity | 50,000 |
+| | | Profit | 4,000 |
+| **Total** | **54,000** | **Total** | **54,000** |
+
+> [!tip] The teaching point
+> The **₹4,000 profit lands in equity** (50,000 → 54,000), and *that* is why the balance sheet balances at ₹54,000. Same mechanism as the [[10-Journal-Ledger-and-Trial-Balance#4. Bridge — where these balances go next (preview of Session 6)|Session 5 bridge]] — but here there were no adjustments. The next case adds them.
+
+---
+
+## 3. Capstone case — Leisure Centre Ltd (Problem 4.12)
+
+> [!example] The situation
+> Leisure Centre Ltd was set up on **1 July 20XX**. It runs a swimming pool and a tennis court and sells memberships/subscriptions. Its books have run for **one month**; we have the **unadjusted trial balance at 31 July 20XX** and seven pieces of additional information requiring adjustment. Required: adjusting entries, then the adjusted P&L and balance sheet for July.
+
+### Unadjusted trial balance, 31 July 20XX
+
+| Account | Debit (₹) | Credit (₹) |
+|---|---:|---:|
+| Swimming pool | 12,000 | |
+| Tennis court | 9,600 | |
+| Supplies | 3,280 | |
+| Trade receivables | 2,910 | |
+| Cash | 940 | |
+| Prepaid insurance | 1,200 | |
+| Trade payables | | 1,290 |
+| Unearned revenue | | 2,100 |
+| Share capital | | 15,000 |
+| Dividends | 800 | |
+| Revenue from services | | 15,540 |
+| Salaries expense | 2,910 | |
+| Telephone expense | 290 | |
+| **Total** | **33,930** | **33,930** |
+
+### The seven adjustments
+
+> [!note] (a) Depreciation — swimming pool & tennis court
+> Pool life **5 years**, court life **8 years**, neither has scrap value. **The centre has operated only one month**, so charge **one month's** depreciation:
+> - Swimming pool: 12,000 ÷ 5 ÷ 12 = **₹200/month**
+> - Tennis court: 9,600 ÷ 8 ÷ 12 = **₹100/month**
+>
+> | Journal | Dr (₹) | Cr (₹) |
+> |---|---:|---:|
+> | Depreciation expense | 300 | |
+> | &nbsp;&nbsp;To Swimming pool | | 200 |
+> | &nbsp;&nbsp;To Tennis court | | 100 |
+
+> [!important] Watch the period — pro-rate the depreciation
+> The **annual** charges would be 12,000/5 = ₹2,400 and 9,600/8 = ₹1,200. But Leisure Centre has been open for **only July**, so the amount belonging to this period is **one twelfth** of each: **₹200 and ₹100**, total **₹300**. Charging the full-year figure is the classic trap. (Formally the credit could go to *Accumulated Depreciation* rather than the asset account directly; both reduce the asset's carrying value — this case nets it straight off the asset.)
+
+> [!note] (b) Supplies consumed
+> Opening supplies ₹3,280 − supplies still on hand ₹1,190 = **₹2,090 consumed.**
+>
+> | Journal | Dr (₹) | Cr (₹) |
+> |---|---:|---:|
+> | Supplies expense | 2,090 | |
+> | &nbsp;&nbsp;To Supplies | | 2,090 |
+
+> [!note] (c) Accrued subscription revenue
+> ₹1,200 is **due from members admitted provisionally** — earned but not yet billed.
+>
+> | Journal | Dr (₹) | Cr (₹) |
+> |---|---:|---:|
+> | Trade receivables | 1,200 | |
+> | &nbsp;&nbsp;To Revenue from services | | 1,200 |
+
+> [!note] (d) Unearned subscription now earned
+> ₹300 of the ₹2,100 unearned balance relates to July — now **earned**.
+>
+> | Journal | Dr (₹) | Cr (₹) |
+> |---|---:|---:|
+> | Unearned revenue | 300 | |
+> | &nbsp;&nbsp;To Revenue from services | | 300 |
+
+> [!note] (e) Accrued salaries
+> Last week's staff salaries of **₹1,290** are unpaid.
+>
+> | Journal | Dr (₹) | Cr (₹) |
+> |---|---:|---:|
+> | Salaries expense | 1,290 | |
+> | &nbsp;&nbsp;To Salaries payable | | 1,290 |
+
+> [!note] (f) Accrued electricity
+> An electricity bill of **₹280** for July arrived after month-end.
+>
+> | Journal | Dr (₹) | Cr (₹) |
+> |---|---:|---:|
+> | Electricity expense | 280 | |
+> | &nbsp;&nbsp;To Electricity payable | | 280 |
+
+> [!note] (g) Insurance expired
+> A ₹1,200 one-year premium was paid on 1 July → **₹1,200 ÷ 12 = ₹100** has expired.
+>
+> | Journal | Dr (₹) | Cr (₹) |
+> |---|---:|---:|
+> | Insurance expense | 100 | |
+> | &nbsp;&nbsp;To Prepaid insurance | | 100 |
+
+> [!note] Explanation — the debit/credit logic behind each adjustment
+> Every adjustment debits one account and credits another; DEAD CLIC gives the direction:
+> - **(a) Depreciation** — an expense is created → **debit Depreciation** (expense ↑); the asset's value falls → **credit Swimming pool / Tennis court** (asset ↓).
+> - **(b) Supplies consumed** — the used-up stock is an expense → **debit Supplies expense**; the asset on hand falls → **credit Supplies** (asset ↓).
+> - **(c) Accrued revenue** — income is earned but unbilled → **credit Revenue** (income ↑); members now owe us → **debit Trade receivables** (asset ↑).
+> - **(d) Unearned revenue earned** — the advance we held is now earned → **debit Unearned revenue** (liability ↓); recognise it → **credit Revenue** (income ↑).
+> - **(e) Accrued salaries** — cost incurred → **debit Salaries expense**; we now owe staff → **credit Salaries payable** (liability ↑).
+> - **(f) Accrued electricity** — cost incurred → **debit Electricity expense**; we owe the bill → **credit Electricity payable** (liability ↑).
+> - **(g) Insurance expired** — used-up cover is an expense → **debit Insurance expense**; the prepaid asset falls → **credit Prepaid insurance** (asset ↓).
+>
+> The pattern: **(a), (b), (g)** convert an **asset** into an expense; **(e), (f)** turn an unpaid cost into a **liability**; **(c), (d)** recognise **revenue** — one by raising an asset, one by releasing a liability.
+
+### Adjusted P&L — July 20XX
+
+| Revenue | ₹ |
+|---|---:|
+| Revenue from services (15,540 + 1,200 accrued + 300 earned) | **17,040** |
+
+| Expenses | ₹ |
+|---|---:|
+| Salaries (2,910 + 1,290 accrued) | 4,200 |
+| Telephone | 290 |
+| Supplies consumed | 2,090 |
+| Depreciation (200 + 100) | 300 |
+| Electricity | 280 |
+| Insurance expired | 100 |
+| **Total expenses** | **7,260** |
+
+| | ₹ |
+|---|---:|
+| **Net income** (17,040 − 7,260) | **9,780** |
+| Less: Dividends | (800) |
+| **Increase in retained earnings** | **8,980** |
+
+> [!important] Dividends are NOT an expense
+> It is tempting to drop the ₹800 dividends into the P&L as "other expenses" and call the ₹8,980 result "net profit" — but that is wrong. **Dividends are a distribution of profit to owners, not a cost of earning it**, so they never appear in the P&L. The proper presentation: **Net income ₹9,780**, then dividends ₹800 are deducted *after* profit to give the **₹8,980 increase in retained earnings** that carries to the balance sheet. The ₹8,980 figure is correct; it is just *not* "net profit."
+
+### Adjusted balance sheet — 31 July 20XX
+
+| Assets | ₹ | Liabilities & Equity | ₹ |
+|---|---:|---|---:|
+| Swimming pool (12,000 − 200) | 11,800 | Trade payables | 1,290 |
+| Tennis court (9,600 − 100) | 9,500 | Unearned revenue (2,100 − 300) | 1,800 |
+| Supplies (3,280 − 2,090) | 1,190 | Salaries payable | 1,290 |
+| Trade receivables (2,910 + 1,200) | 4,110 | Electricity payable | 280 |
+| Cash | 940 | Share capital | 15,000 |
+| Prepaid insurance (1,200 − 100) | 1,100 | Retained earnings (9,780 − 800) | 8,980 |
+| **Total** | **28,640** | **Total** | **28,640** |
+
+> [!example] The whole thing ties
+> Total assets **₹28,640** = total liabilities & equity **₹28,640**. It balances *only because* every adjustment hit two places: each expense both reduced profit (→ lower retained earnings) and either raised a liability (salaries, electricity payable) or lowered an asset (pool, court, supplies, prepaid insurance). The dual-aspect rule is what keeps it tied.
+
+### Adjusted trial balance — 31 July 20XX (optional cross-check only)
+
+> [!note] Not a required step
+> Per the teacher's method you would **skip** this and post the adjustments straight to the P&L and balance sheet above. It is shown here only to prove the books still tie after adjusting (₹36,700 each side).
+
+
+| Account | Debit (₹) | Credit (₹) |
+|---|---:|---:|
+| Swimming pool | 11,800 | |
+| Tennis court | 9,500 | |
+| Supplies | 1,190 | |
+| Trade receivables | 4,110 | |
+| Cash | 940 | |
+| Prepaid insurance | 1,100 | |
+| Trade payables | | 1,290 |
+| Unearned revenue | | 1,800 |
+| Salaries payable | | 1,290 |
+| Electricity payable | | 280 |
+| Share capital | | 15,000 |
+| Dividends | 800 | |
+| Revenue from services | | 17,040 |
+| Salaries expense | 4,200 | |
+| Telephone expense | 290 | |
+| Supplies expense | 2,090 | |
+| Depreciation expense | 300 | |
+| Electricity expense | 280 | |
+| Insurance expense | 100 | |
+| **Total** | **36,700** | **36,700** |
+
+---
+
+## 4. The supplies account as a working
+
+The supplies consumption can be drawn as a T-account — a clean way to *derive* the ₹2,090 consumed rather than just asserting it:
+
+**Supplies A/c**
+
+| Dr | ₹ | Cr | ₹ |
+|---|---:|---|---:|
+| To Opening balance | 3,280 | By Supplies expense (consumed) | 2,090 |
+| | | By Closing balance c/d | 1,190 |
+| **Total** | **3,280** | **Total** | **3,280** |
+
+> [!tip] Same logic for inventory in a trading business
+> The identical structure — **Opening + Purchases − Closing = Cost consumed/sold** — is how the Trading Account computes COGS. You already saw the miniature version in the [[10-Journal-Ledger-and-Trial-Balance#Step 2 — Ledger (T-accounts)|Session 5 Inventory account]]. The full Trading Account (with returns inward/outward, carriage, wages) is **Session 7** material.
+
+---
+
+## 5. Closing entries (Day 8)
+
+> [!note] Definition — closing entries
+> After the final accounts are drawn up, the **temporary accounts** — all **revenue and expense** accounts, plus **dividends** — are **closed** (reset to zero) so the next period starts fresh. Their net effect is transferred to **Retained earnings** (often via an intermediate *Profit & Loss Summary* / *Income Summary* account). **Only balance-sheet accounts** (assets, liabilities, equity) carry their balances **from one period to the next.**
+
+The four standard closing entries:
+
+| # | Purpose | Entry |
+|---|---|---|
+| 1 | Close revenue | Revenue **Dr** · To P&L Summary |
+| 2 | Close expenses | P&L Summary **Dr** · To each expense account |
+| 3 | Transfer net profit to equity | P&L Summary **Dr** · To Retained earnings |
+| 4 | Close dividends | Retained earnings **Dr** · To Dividends |
+
+> [!important] The core rule — every revenue and expense account must be brought to **zero** before the new year
+> You have to get **all revenue and expense accounts' balances to 0 before the new year begins.** They are temporary, one-year accounts. **Sales starts each year at zero**, accumulates that year's sales, and at year-end its entire balance is closed out — so on day one of the next year it opens again at **zero** and begins recording afresh. Every expense account works the same way. **Only balance-sheet accounts** (assets, liabilities, equity) carry a balance forward; **Retained earnings** absorbs the year's net profit.
+
+> [!tip] Why revenue/expense accounts are "temporary"
+> Profit is measured **per period**. If last year's sales stayed in the Sales account, this year's figure would be meaningless. Closing wipes the income-statement accounts to zero and parks the *result* (net profit) in **Retained earnings**, which is permanent. This is why a P&L covers *a period* while a balance sheet is *a point in time*. Worked closing entries appear in [[12-Adjusting-Entries-Practice-Narayanaswamy|Problems 4.14 and 4.16]].
+
+> [!example] What "closing to zero" looks like — the Sales account
+> Suppose the year's sales total **₹13,810** (as in [[12-Adjusting-Entries-Practice-Narayanaswamy#Problem 4.14 — Admark Limited|Admark 4.14]]). Through the year the Sales account builds a **₹13,810 credit** balance. The closing entry debits it by exactly that amount, transferring it to the P&L Summary:
+>
+> **Sales (Revenue from services) A/c**
+>
+> | Dr | ₹ | Cr | ₹ |
+> |---|---:|---|---:|
+> | To P&L Summary (closing) | 13,810 | By sales recorded through the year | 13,810 |
+> | **Total** | **13,810** | **Total** | **13,810** |
+>
+> After posting, the balance is **nil** — there is **no "balance b/d"** into the next year. On the first day of the new year Sales stands at **₹0** and starts accumulating again. Contrast an asset like Cash, whose closing balance *does* carry down as next year's opening balance.
+
+---
+
+## 6. Depreciation via accumulated depreciation (Day 8)
+
+The Leisure Centre case above netted depreciation **straight off the asset** (Swimming pool 12,000 → 11,800). The teacher's **standard method** instead credits a separate **contra-asset**, *Accumulated Depreciation*:
+
+> [!important] The preferred entry
+> **Depreciation expense** *Dr* · **To Accumulated Depreciation**
+> - **Depreciation expense** — an expense in the P&L (this period's charge).
+> - **Accumulated Depreciation** — a **contra-asset**: it *reduces* the asset but is shown separately, so the balance sheet keeps **both** the asset's **original cost** *and* the **total depreciation to date**.
+
+On the balance sheet the asset then reads: **Cost − Accumulated depreciation = Carrying amount (net book value).**
+
+> [!note] Why keep original cost visible?
+> Netting depreciation directly off the asset loses information — you can no longer tell a nearly-new asset from a nearly-written-off one. The contra-asset preserves both numbers. This is why the Narayanaswamy trial balances (4.14, 4.15) already carry an **"Accumulated depreciation"** line, and each year's adjustment simply **adds** to it (e.g. 4.15 packaging equipment: opening 9,000 + 3,000 = 12,000; net = 30,000 − 12,000 = 18,000).
+
+---
+
+## 7. Recording inventory — perpetual vs periodic (Day 8)
+
+A firm can record goods bought for resale in **two** ways, and the choice decides whether the account is an **asset** or an **expense**:
+
+| System | Records purchases in | Nature | When COGS is found |
+|---|---|---|---|
+| **Perpetual** | **Inventory** account | **Asset** | At **each sale** — inventory flows to COGS then and there |
+| **Periodic** | **Purchases** account | **Expense** | At **period-end** — closing stock is pulled out of Purchases |
+
+> [!note] The fundamental difference
+> - **Perpetual:** *Inventory is an asset* that is **reduced** as goods are sold, by recognising **COGS** (an expense). This is what the [[10-Journal-Ledger-and-Trial-Balance#Step 1 — Journal entries|Session 5 ten-transaction case]] did — every sale had a separate COGS entry (Dr COGS / Cr Inventory).
+> - **Periodic:** *Purchases is an expense.* No COGS is booked per sale; at year-end the **closing stock** left on hand is an **asset** that flows *out* of Purchases and onto the balance sheet. **COGS = Opening stock + Purchases − Closing stock.**
+>
+> Both arrive at the same profit; they differ in *when* and *through which account* the cost is recognised.
+
+> [!example] The Purchase account, step by step (periodic system)
+> Under the periodic system every good bought for resale is debited to a **Purchases account (an expense)**. At year-end the stock still on hand is *not* an expense — it must be lifted out to the balance sheet as an **asset (closing stock)**. Using the [[10-Journal-Ledger-and-Trial-Balance|Session 5]] figures — ₹600 of goods bought, ₹250 unsold at year-end:
+>
+> 1. **During the year:** `Purchases A/c Dr 600 · To Cash / Creditors 600` — booked as an expense.
+> 2. **At year-end, extract the unsold stock:** `Closing stock (asset) Dr 250 · To Purchases (Trading A/c) 250`.
+> 3. **What's left in Purchases — ₹350 — is the cost of goods sold**, closed to the Trading/P&L account like any other expense.
+>
+> **Purchases A/c**
+>
+> | Dr | ₹ | Cr | ₹ |
+> |---|---:|---|---:|
+> | To Cash / Creditors | 600 | By Closing stock (to balance sheet) | 250 |
+> | | | By Trading A/c (COGS) | 350 |
+> | **Total** | **600** | **Total** | **600** |
+>
+> So the periodic flow is **expense → asset**: the Purchases expense is reduced by the closing stock that becomes a balance-sheet asset. The perpetual flow runs the other way — **asset → expense**: Inventory is reduced into COGS at each sale. Either route gives the *same* ₹250 closing stock and ₹350 COGS.
+
+---
+
+## 8. Capital vs revenue expenditure — repairs vs renovation (Day 8)
+
+> [!important] The distinction
+> - **Repairs & maintenance** → **revenue expenditure** → **expensed** in the P&L. It merely *keeps* an asset in working order (restores existing capacity).
+> - **Renovation / improvement** → **capital expenditure** → **capitalised** (added to the asset). It *enhances* the asset — extends its life or raises its capacity — so the benefit spans future periods.
+
+> [!warning] Why it matters (managerial discretion)
+> Capitalising a cost instead of expensing it **raises this year's profit** and **raises assets**; expensing does the reverse. Because the line between "repair" and "improvement" is a judgement call, it is a classic lever of [[00-Course-Map|managerial discretion]] — expensing genuine improvements understates profit and assets, while capitalising routine repairs flatters them.
+
+---
+
+## 9. Statement of changes in equity
+
+Between two balance sheets, equity moves for a few specific reasons, and the **statement of changes in equity** lays them out:
+
+> [!important] Key relationship
+> $$\text{Closing retained earnings} = \text{Opening RE} + \text{Profit for the year} - \text{Dividends}$$
+> and **Total equity = Share capital (+ any shares issued) + Closing retained earnings.**
+
+This is the same **retained-earnings roll-forward** from [[08-The-Accounting-Equation#2. The expanded equation — bringing in revenue and expenses|the expanded equation]], now presented as a formal statement. It is required in Narayanaswamy 4.14–4.16 (see [[12-Adjusting-Entries-Practice-Narayanaswamy]]), where there is *no* fresh share issue, so the only movers are **profit** (up) and **dividends** (down).
+
+---
+
+## Common mistakes (Adjusting Entries & Final Accounts)
+
+> [!warning] Gotchas
+> - **Charging a full year's depreciation for a part-year** — Leisure Centre ran one month, so ₹200 + ₹100, not ₹2,400 + ₹1,200. Always pro-rate.
+> - **Putting dividends (or owner drawings) in the P&L** — they are distributions; deduct them from equity/retained earnings, never from profit.
+> - **Missing the no-cash adjustments** — depreciation, accrued salaries/electricity, prepaid insurance expiry all move profit with no cash flow.
+> - **Recognising unearned revenue too early or too late** — only the ₹300 *earned in July* moves out of the liability; the rest stays unearned.
+> - **Forgetting accrued revenue** — the ₹1,200 due from provisional members is earned and must be booked even though no invoice has gone out.
+> - **Only doing one side of an adjustment** — each entry hits P&L *and* balance sheet; skip a leg and it won't tie.
+
+---
+
+## Key takeaways
+
+- Adjusting entries bridge the **unadjusted trial balance** and the **final accounts**, enforcing [[07-Conceptual-Framework-and-Core-Concepts#Accrual Concept|accrual]] at period-end.
+- Five types: **accrued expense, accrued revenue, prepaid expiring, unearned earned, depreciation/supplies consumed** — each hits both statements.
+- **Warm-up case:** trial balance ₹60,000, net profit ₹4,000, balance sheet ₹54,000 each side.
+- **Leisure Centre:** revenue adjusts to ₹17,040, expenses ₹7,260, **net income ₹9,780**; after ₹800 dividends, retained earnings rise ₹8,980; balance sheet and adjusted trial balance tie at **₹28,640 / ₹36,700**.
+- **Pro-rate depreciation** to the period (monthly **₹300** here, not the ₹3,600 annual working), and **never treat dividends as an expense** — deduct them after profit.
+- **Teacher's method:** post adjustments **straight to the P&L and balance sheet** via dual aspect; prepare journal entries **only if asked**, and don't bother with a full adjusted trial balance.
+- **Closing entries** bring every revenue, expense and dividend account to a **zero** balance before the new year — **Sales restarts at ₹0 each year** — transferring the net result to Retained earnings; **only balance-sheet accounts carry forward.**
+- **Accumulated depreciation** (a contra-asset) is preferred over netting off the asset — it keeps original cost *and* depreciation-to-date visible.
+- **Perpetual** inventory = an *asset* reduced by COGS at each sale; **periodic** = a *Purchases expense* reduced by closing stock at year-end. **Repairs = expense; renovation = capitalise.**
+
+---
+
+**Related:** [[12-Adjusting-Entries-Practice-Narayanaswamy]] · [[10-Journal-Ledger-and-Trial-Balance]] · [[09-The-Accounting-Cycle-Recording-Transactions]] · [[07-Conceptual-Framework-and-Core-Concepts]] · [[05-Income-Statement-PandL]] · [[04-Balance-Sheet-Equity-and-Liabilities]] · [[90-Master-Formula-Sheet]] · [[91-Exam-Question-Bank]]
