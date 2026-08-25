@@ -15,7 +15,7 @@ draft: false
 dg-publish: false
 ---
 
-← [[FRA Session 8]] | [[FRA — Index|FRA Index]] | [[Acads/FRA/FRA Session 10]] →
+← [[FRA Session 8]] | [[00-Course-Map|FRA Index]] | [[FRA Session 10]] →
 
 > [!abstract] Session in one line
 > Receivables are never worth their face value — the allowance method forces you to book the expected loss *before* you know who defaults. Then: how deferred revenue works when the promise is a loyalty point rather than a good.
@@ -168,7 +168,7 @@ The points are a separately identifiable component of the original sale — a pe
 - **Amazon order** → revenue on **delivery**, not at checkout. Cash received earlier sits as a contract liability.
 - **Gift card** → revenue when the card is **redeemed**, not when it's sold. Sale of the card is Cash Dr / Deferred Revenue Cr; redemption moves it to revenue. Cards that will never be redeemed (breakage) are recognised in proportion to the pattern of actual redemptions, based on historical experience.
 
-Carried into [[Acads/FRA/FRA Session 10]]: the agent-vs-principal distinction (ticket aggregator vs airline), and what happens when the "asset" being created is R&D rather than a receivable.
+Carried into [[FRA Session 10]]: the agent-vs-principal distinction (ticket aggregator vs airline), and what happens when the "asset" being created is R&D rather than a receivable.
 
 ---
 

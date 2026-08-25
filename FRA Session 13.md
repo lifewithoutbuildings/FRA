@@ -1,3 +1,7 @@
+← [[FRA Session 12]] | [[00-Course-Map|FRA Index]] | [[FRA Session 14]] →
+
+> [!warning] Raw source dump — solutions are in the worked notes
+> This file holds the raw illustrations (Jiva, Yash, Jaya, Vinod, Asif) with unsolved "Required" blocks. Fully worked solutions: [[16-Revaluation-of-Fixed-Assets]] (Jiva & Yash) · [[17-Impairment-of-Assets]] (Jaya) · [[14-Depreciation-Methods-and-Changes]] (Vinod & Asif change-in-estimate/method).
 
 ## Revaluation of Assets
 

@@ -17,7 +17,7 @@ draft: false
 dg-publish: false
 ---
 
-← [[Acads/FRA/FRA Session 9]] | [[FRA — Index|FRA Index]] | [[FRA Session 11]] →
+← [[FRA Session 9]] | [[00-Course-Map|FRA Index]] | [[FRA Session 11]] →
 
 > [!abstract] Session in one line
 > Who gets to book the revenue, and how much? Then the Microsoft case: what happens to reported earnings and returns if you capitalise the R&D that the company expenses.
@@ -34,7 +34,7 @@ A ticket aggregator sells a flight ticket:
 | **Airline** *(principal)* | Carriage | Only once the **flight has flown** | Full fare — gross |
 
 > [!important] Two separate performance obligations
-> The aggregator's obligation is discharged the moment the booking is confirmed. The airline's is discharged only when it actually flies you. Until then the fare sits on the airline's balance sheet as unearned revenue (the "air traffic liability") — the same [[Unearned Revenue|deferred revenue]] mechanic as the gift card in [[Acads/FRA/FRA Session 9]].
+> The aggregator's obligation is discharged the moment the booking is confirmed. The airline's is discharged only when it actually flies you. Until then the fare sits on the airline's balance sheet as unearned revenue (the "air traffic liability") — the same [[Unearned Revenue|deferred revenue]] mechanic as the gift card in [[FRA Session 9]].
 
 > [!tip] Why gross vs net matters
 > Booking gross when you're an agent inflates the top line without touching profit. Classic dot-com-era aggressiveness — and the reason the standard tests **control** of the good or service before transfer, not just who collects the cash.
@@ -92,7 +92,7 @@ A ticket aggregator sells a flight ticket:
 > [!note] Read the balance sheet first
 > Of $37bn of assets, **$17bn is cash and short-term investments** and a further $14bn is equity investments. Property and equipment is $1.6bn. Almost nothing on this balance sheet is the actual business — the software franchise that generates $19.7bn of revenue is **entirely absent as an asset**.
 >
-> Also note **unearned revenue of $4,239m**, growing from $1,418m in 1997 — the [[Revenue Recognition|deferral]] mechanic from [[Acads/FRA/FRA Session 9]] showing up as the single largest operating liability.
+> Also note **unearned revenue of $4,239m**, growing from $1,418m in 1997 — the [[Revenue Recognition|deferral]] mechanic from [[FRA Session 9]] showing up as the single largest operating liability.
 
 > [!warning] Book value ≠ asset value
 > Book equity of $28bn against a market capitalisation running into the hundreds of billions. The gap is the internally generated intangible that accounting refuses to recognise, because there is no reliable, verifiable cost basis for it.

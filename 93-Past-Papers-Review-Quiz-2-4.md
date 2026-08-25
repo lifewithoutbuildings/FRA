@@ -114,20 +114,20 @@ dg-publish: false
 
 ## 3. Quiz 3 — mapping only (later topic)
 
-> [!info] Verdict
-> Quiz 3 is the **fixed-assets, depreciation-methods & inventory-valuation** paper — a topic *after* Sessions 5–6. The foundations it builds on (accumulated depreciation, perpetual vs periodic) are in [[11-Adjusting-Entries-and-Final-Accounts]], but the specific techniques below are not yet in your notes.
+> [!info] Verdict — now covered
+> Quiz 3 is the **fixed-assets & depreciation-methods** paper. The techniques are now written up in topic notes **13–18**. **Note:** the 2015 paper included two **LIFO/FIFO inventory** questions (Q5–Q6), but **inventory valuation was NOT taught in your Sessions 11–14** — treat those two as out of scope unless the professor says otherwise. Upload the actual 2015 paper for a full `95`-style worked breakdown.
 
-| Q | Tests | Will live under |
+| Q | Tests | Now lives in |
 |---|---|---|
-| 1 | Change in depreciation method **WDV → SLM**; WDV rate; retrospective vs prospective effect | Fixed assets — depreciation methods |
-| 2 | **Revaluation model**: depreciation on revalued amount; transfer from revaluation reserve to general reserve | Fixed assets — revaluation |
-| 3 | Revaluation + depreciation + **disposal**; transfer to general reserve on disposal | Fixed assets — revaluation/disposal |
-| 4 | **Impairment**: recoverable amount = higher of value-in-use & net selling price; impairment loss; entry when a revaluation reserve exists | Fixed assets — impairment |
-| 5 | Inventory costing giving **lowest income in deflation** (LIFO/FIFO) | Inventory valuation |
-| 6 | **LIFO vs FIFO** COGS/income/closing-stock computation | Inventory valuation |
+| 1 | Change in depreciation method **WDV ↔ SLM**; WDV rate; prospective effect | [[14-Depreciation-Methods-and-Changes]] |
+| 2 | **Revaluation model**: depreciation on revalued amount; RR → general-reserve transfer | [[16-Revaluation-of-Fixed-Assets]] |
+| 3 | Revaluation + depreciation + **disposal**; transfer to general reserve on disposal | [[16-Revaluation-of-Fixed-Assets#5. Revaluation + disposal (Fun Quiz Q5 pattern)]] |
+| 4 | **Impairment**: recoverable amount = higher of value-in-use & net selling price; entry when a reserve exists | [[17-Impairment-of-Assets]] |
+| 5 | Inventory costing giving lowest income in deflation (LIFO/FIFO) | ⚠️ **out of scope** — not taught in S11–14 |
+| 6 | LIFO vs FIFO COGS/income/closing-stock computation | ⚠️ **out of scope** — not taught in S11–14 |
 
-> [!tip] The one connection worth noting now
-> Q4's impairment entry (`Dr Impairment loss / Cr Asset`, or `Dr Revaluation reserve` first if one exists) is the same **contra logic** as depreciation in [[11-Adjusting-Entries-and-Final-Accounts#6. Depreciation via accumulated depreciation (Day 8)|§6]] — an asset written down against a paired account. Full worked solutions belong in the fixed-assets note. Ask when you reach it.
+> [!tip] The connection worth noting
+> Q4's impairment entry (`Dr Impairment loss / Cr Asset`, or `Dr Revaluation reserve` first if one exists) is the same **contra logic** as depreciation in [[11-Adjusting-Entries-and-Final-Accounts#6. Depreciation via accumulated depreciation (Day 8)|§6]]. Fully worked: [[17-Impairment-of-Assets]]. Drill the whole block via [[95-Fun-Quiz-Session-14-Worked]] and [[96-Mock-Quiz-3-Predicted]].
 
 ---
 

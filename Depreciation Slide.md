@@ -1,4 +1,5 @@
-
+> [!note] Slide extract — see the worked note
+> Professor's depreciation-method schedules (SLM, WDV, production-unit). Worked explanation, WDV-rate derivation and the change-in-method trap: [[14-Depreciation-Methods-and-Changes]].
 
 It is a process of allocation of the cost of the asset over its useful life, so that profit or loss can be measured effectively.
 
