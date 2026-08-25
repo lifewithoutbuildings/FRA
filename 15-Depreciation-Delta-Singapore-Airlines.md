@@ -82,4 +82,4 @@ dg-publish: false
 - Life & salvage are **estimates** → managerial discretion → the reason footnotes exist.
 - Singapore's aggressive depreciation underwrites a **young-fleet, gain-on-sale** strategy.
 
-**Related:** [[Delta Airlines Case]] · [[14-Depreciation-Methods-and-Changes]] · [[FRA Session 10]] (earnings quality) · [[90-Master-Formula-Sheet]]
+**Related:** [[Delta Airlines Case]] · [[14-Depreciation-Methods-and-Changes]] · [[20-Agent-Principal-and-the-Microsoft-Case|Agent vs Principal & Microsoft]] (earnings quality) · [[90-Master-Formula-Sheet]]

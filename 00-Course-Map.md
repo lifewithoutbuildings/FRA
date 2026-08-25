@@ -35,6 +35,11 @@ dg-home: false
 | 16  | [[16-Revaluation-of-Fixed-Assets]]                 | Revaluation model; up→OCI/reserve, down→P&L; depreciation on revalued amount; reserve→general-reserve transfer; Jiva & Yash worked; disposal                            | S13              |
 | 17  | [[17-Impairment-of-Assets]]                        | Recoverable amount = max(NSP, value-in-use); impairment loss; reserve-first-then-P&L; Jaya fully worked with discount table                                             | S14              |
 | 18  | [[18-Intangible-Assets]]                           | Purchased vs internally generated; research (expense) vs development (capitalise); amortise over useful life; goodwill impairment-only; Fun Quiz Q8/Q9                   | S14              |
+| 19  | [[19-Receivables-Bad-Debts-and-Revenue-Recognition]] | Allowance method; write-off/recovery; T-account plug; IFRIC 13 loyalty points; revenue recognition first principles *(was FRA Session 9)*                              | S9               |
+| 20  | [[20-Agent-Principal-and-the-Microsoft-Case]]      | Agent vs principal (gross vs net); the Microsoft R&D case — capitalise-vs-expense, earnings quality, ROA/ROE *(was FRA Session 10)*                                      | S10              |
+
+> [!note] Naming convention
+> Polished, reviewed notes are **numbered + descriptively named** (01–20). Full **case walkthroughs** are named for the case ([[Stafford Press Case]], [[Delta Airlines Case]]). Raw class captures that sit *behind* a topic note stay as **"FRA Session N"** (12, 13, 14) and carry a banner to the worked note. Old `[[FRA Session 9/10/11]]` links still resolve via aliases.
 
 ## Exam-prep layer
 
@@ -44,6 +49,7 @@ dg-home: false
 - [[93-Past-Papers-Review-Quiz-2-4]] — Quiz 2 worked in full; Quiz 3 & 4 mapped
 - [[95-Fun-Quiz-Session-14-Worked]] — **the professor's own Session-14 revision quiz, worked — closest thing to a Quiz-3 blueprint**
 - [[96-Mock-Quiz-3-Predicted]] — a fresh-numbers predicted Quiz 3
+- [[97-Quiz-3-Cram-Sheet]] — **one-page night-before cram sheet** for Sessions 11–14
 
 ## Running cases (applied examples)
 
@@ -57,7 +63,7 @@ dg-home: false
 | **Ten-transaction trading business** | [[10-Journal-Ledger-and-Trial-Balance]] | Journal → ledger → trial balance drilled end-to-end; closing stock as an inventory balance |
 | **Leisure Centre Ltd (Problem 4.12)** | [[11-Adjusting-Entries-and-Final-Accounts]] | Seven period-end adjustments → adjusted final accounts; part-year depreciation; dividends ≠ expense |
 | **Narayanaswamy 4.14 / 4.15 / 4.16** | [[12-Adjusting-Entries-Practice-Narayanaswamy]] | Complete accounting cycle for service firms; accumulated depreciation; closing entries; two-period carry-forward |
-| **Stafford Press** | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]], [[FRA Session 11]] | All seven asset events — buy, sell, swap, wear-out, revalue, impair, intangibles — in one story |
+| **Stafford Press** | [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]], [[Stafford Press Case]] | All seven asset events — buy, sell, swap, wear-out, revalue, impair, intangibles — in one story |
 | **Delta vs Singapore Airlines** | [[15-Depreciation-Delta-Singapore-Airlines]] | Depreciation as managerial discretion; per-$100 comparability; strategy link |
 | **Jiva Industries / Yash Ltd** | [[16-Revaluation-of-Fixed-Assets]] | Revaluation on gross vs net basis; reserve mechanics; 3-yearly revaluation cycle |
 | **Jaya Heavy Industries** | [[17-Impairment-of-Assets]] | Value-in-use, recoverable amount, reserve-first impairment |

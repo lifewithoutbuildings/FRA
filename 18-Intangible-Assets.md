@@ -132,4 +132,4 @@ dg-publish: false
 - **Q8:** brand = **₹50 lakhs**; **Q9:** software = **$1,40,000**.
 - **Goodwill impairment** at the **CGU** level, written off **first**, **never reversed**.
 
-**Related:** [[FRA Session 11]] · [[03-Balance-Sheet-Assets]] · [[17-Impairment-of-Assets]] · [[95-Fun-Quiz-Session-14-Worked]] · [[90-Master-Formula-Sheet]]
+**Related:** [[Stafford Press Case]] · [[03-Balance-Sheet-Assets]] · [[17-Impairment-of-Assets]] · [[95-Fun-Quiz-Session-14-Worked]] · [[90-Master-Formula-Sheet]]

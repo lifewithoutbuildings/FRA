@@ -1,5 +1,8 @@
 ---
-title: FRA Session 9 — Bad Debts, Loyalty Points & Revenue Recognition
+title: 19 · Receivables, Bad Debts & Revenue Recognition
+aliases:
+  - FRA Session 9
+  - FRA Session 9 — Bad Debts, Loyalty Points & Revenue Recognition
 course: FRA
 session: 9
 tags:
@@ -15,7 +18,7 @@ draft: false
 dg-publish: false
 ---
 
-← [[FRA Session 8]] | [[00-Course-Map|FRA Index]] | [[FRA Session 10]] →
+← [[FRA Session 8]] | [[00-Course-Map|FRA Index]] | [[20-Agent-Principal-and-the-Microsoft-Case|Agent vs Principal & Microsoft]] →
 
 > [!abstract] Session in one line
 > Receivables are never worth their face value — the allowance method forces you to book the expected loss *before* you know who defaults. Then: how deferred revenue works when the promise is a loyalty point rather than a good.
@@ -168,10 +171,10 @@ The points are a separately identifiable component of the original sale — a pe
 - **Amazon order** → revenue on **delivery**, not at checkout. Cash received earlier sits as a contract liability.
 - **Gift card** → revenue when the card is **redeemed**, not when it's sold. Sale of the card is Cash Dr / Deferred Revenue Cr; redemption moves it to revenue. Cards that will never be redeemed (breakage) are recognised in proportion to the pattern of actual redemptions, based on historical experience.
 
-Carried into [[FRA Session 10]]: the agent-vs-principal distinction (ticket aggregator vs airline), and what happens when the "asset" being created is R&D rather than a receivable.
+Carried into [[20-Agent-Principal-and-the-Microsoft-Case|Agent vs Principal & Microsoft]]: the agent-vs-principal distinction (ticket aggregator vs airline), and what happens when the "asset" being created is R&D rather than a receivable.
 
 ---
 
 ## Concepts touched
 
-[[Allowance Method]] · [[Provision for Doubtful Debts]] · [[Contra Asset]] · [[Matching Principle]] · [[Change in Accounting Estimate]] · [[Unearned Revenue]] · [[IFRIC 13]] · [[Revenue Recognition]]
+[[Allowance Method]] · [[Provision for Doubtful Debts]] · [[Contra Asset]] · [[Matching Principle]] · [[14-Depreciation-Methods-and-Changes|Change in Accounting Estimate]] · [[Unearned Revenue]] · [[IFRIC 13]] · [[Revenue Recognition]]

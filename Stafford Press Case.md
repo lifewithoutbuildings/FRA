@@ -1,10 +1,14 @@
 ---
+title: Stafford Press Case — Long-Term Assets Walkthrough
+aliases:
+  - FRA Session 11
 dg-publish: false
 tags:
   - mba
   - fra
   - lecture-notes
   - long-term-assets
+  - case-study
   - ppe
   - ind-as
 course:
@@ -24,7 +28,7 @@ status: complete
 dg-home: false
 ---
 
-← [[FRA Session 10]] | [[00-Course-Map|FRA Index]] | [[FRA Session 12]] →
+← [[20-Agent-Principal-and-the-Microsoft-Case|Agent vs Principal & Microsoft]] | [[00-Course-Map|FRA Index]] | [[FRA Session 12]] →
 
 > [!note] Canonical worked note
 > This is the full **Stafford Press** narrative. The exam-compressed version — rules, traps, and Fun-Quiz drills — is [[13-Long-Term-Assets-Acquisition-Disposal-Exchange]]. See also [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[18-Intangible-Assets]].

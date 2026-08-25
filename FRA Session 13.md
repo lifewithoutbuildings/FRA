@@ -1,3 +1,21 @@
+---
+title: FRA Session 13 — Revaluation & Impairment Illustrations (raw log)
+course: FRA
+session: 13
+tags:
+  - fra
+  - session-notes
+  - raw-source
+  - revaluation
+  - impairment
+standards:
+  - Ind AS 16
+  - Ind AS 36
+  - AS 28
+status: raw
+dg-publish: false
+---
+
 ← [[FRA Session 12]] | [[00-Course-Map|FRA Index]] | [[FRA Session 14]] →
 
 > [!warning] Raw source dump — solutions are in the worked notes

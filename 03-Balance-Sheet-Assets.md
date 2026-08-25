@@ -155,6 +155,9 @@ $$\text{Annual Depreciation} = \frac{\text{Cost} - \text{Estimated Residual (Sal
 > [!tip] Managerial discretion lives here (thrust 3)
 > Depreciation depends on **estimated life**, **estimated residual value** and the **method chosen** — all management judgements. Two identical firms can report different profits purely through these choices. This is why depreciation is the headline example of *managerial choice* in the course.
 
+> [!info] Quiz-3 deep dive (Sessions 11–14)
+> The full long-term-asset lifecycle is written up separately: [[13-Long-Term-Assets-Acquisition-Disposal-Exchange|acquisition/disposal/exchange]] · [[14-Depreciation-Methods-and-Changes|depreciation methods & changes]] · [[15-Depreciation-Delta-Singapore-Airlines|Delta/Singapore case]] · [[16-Revaluation-of-Fixed-Assets|revaluation]] · [[17-Impairment-of-Assets|impairment]] · [[18-Intangible-Assets|intangibles]].
+
 > [!question] Quiz 1 Q15 — decrease in the value of intangible assets is…?
 > **Amortisation.** (Depreciation → tangibles; depletion → natural resources.)
 

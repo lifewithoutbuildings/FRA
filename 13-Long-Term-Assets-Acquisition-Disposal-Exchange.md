@@ -15,13 +15,13 @@ status: reviewed
 dg-publish: false
 ---
 
-← [[00-Course-Map|Course Map]] | [[FRA Session 11]] (full Stafford narrative) | [[14-Depreciation-Methods-and-Changes]] →
+← [[00-Course-Map|Course Map]] | [[Stafford Press Case]] (full Stafford narrative) | [[14-Depreciation-Methods-and-Changes]] →
 
 > [!abstract] In one line
 > The whole Quiz-3 fixed-asset block turns on **one decision made over and over**: when money moves near an asset, does it go *onto* the balance sheet (capitalise) or *through* the income statement (expense)? This note nails the three moments where that decision is examined — **buying, selling, and swapping** — as fast MCQ-ready rules with the professor's own traps.
 
 > [!info] How this note relates to Session 11
-> [[FRA Session 11]] teaches this through the full **Stafford Press** story end-to-end. This note is the **exam-compression** of it: the rules stripped to what a quiz question tests, plus the **Fun Quiz** items (Q1, Q2, Q6, Q7) worked. Read S11 once for the narrative; drill this before the quiz.
+> [[Stafford Press Case]] teaches this through the full **Stafford Press** story end-to-end. This note is the **exam-compression** of it: the rules stripped to what a quiz question tests, plus the **Fun Quiz** items (Q1, Q2, Q6, Q7) worked. Read S11 once for the narrative; drill this before the quiz.
 
 ---
 
@@ -151,4 +151,4 @@ Dr  Loss on sale of equipment         30,000
 - Disposal: remove **gross cost + accumulated depreciation**; gain/loss = cash − NBV, shown in P&L (not revenue).
 - Exchange: **dissimilar → FV + cash** (gain/loss recognised); **similar → BV + cash** (no gain/loss). Trade-in allowance is only a last-resort proxy for FV.
 
-**Related:** [[FRA Session 11]] · [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]
+**Related:** [[Stafford Press Case]] · [[14-Depreciation-Methods-and-Changes]] · [[16-Revaluation-of-Fixed-Assets]] · [[17-Impairment-of-Assets]] · [[90-Master-Formula-Sheet]] · [[95-Fun-Quiz-Session-14-Worked]]
